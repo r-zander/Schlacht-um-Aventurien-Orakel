@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Schlacht um Aventurien - Alle Karten</title>
+	<link rel="stylesheet" type="text/css" href="style.min.css">
+	<script type="text/javascript" src="vendor/dom-to-image.min.js"></script>
+	<script type="text/javascript" src="vendor/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="vendor/FileSaver.min.js"></script>
+	<script type="text/javascript" src="vendor/isotope.pkgd.min.js"></script>
+
+	<script type="text/javascript" src="js/lazySets.js"></script>
+	<script type="text/javascript" src="js/imageDownload.js"></script>
+	<script type="text/javascript" src="js/lastUpdated.js"></script>
+	<script type="text/javascript" src="js/initIsotope.js"></script>
+</head>
+<body>
+<h1>Schlacht um Aventurien - Alle Karten</h1>
+<section class="download">
+	<a href="01.schlacht-um-aventurien.xml" download>Download</a>
+	aller Sets für Cockatrice. Zuletzt aktualisiert: <span id="lastUpdated">loading ...</span>
+</section>
+<section class="controls sorting">
+	<label for="sortBy">Sortieren:</label>
+	<select id="sortBy"></select>
+
+	<input type="radio" id="sortAscending_true" name="sortAscending" value="true" checked="checked">
+	<label for="sortAscending_true">Aufsteigend</label>
+	<input type="radio" id="sortAscending_false" name="sortAscending" value="false">
+	<label for="sortAscending_false">Absteigend</label>
+</section>
+<section class="controls filters">
+	<p><strong id="cardCount"></strong> Karten gefunden.</p>
+
+	<div class="filterRow">
+		<label for="filter_set">Set:</label>
+		<select id="filter_set" multiple="multiple">
+			<option value="all" selected="selected">Alle</option>
+			<option value="PHE">Phexcaer (PHE)</option>
+			<option value="DGP">Dunkle Gruppe (DPG)</option>
+			<option value="RFO">Reichsforst (RFO)</option>
+		</select>
+	</div>
+
+	<div class="filterRow">
+		<input type="text" placeholder="Name (enthält)" id="filter_name"/>
+	</div>
+
+	<!-- TODO: eigentlich Dropdown? -->
+	<!--<div class="filterRow">-->
+		<!--<input type="text" placeholder="Fraktion (enthält)" id="filter_fraktion"/>-->
+	<!--</div>-->
+	<label for="filter_fraktion">Fraktion:</label>
+	<select id="filter_fraktion">
+		<option value="all" selected="selected">Alle</option>
+	</select>
+
+	<div class="filterRow">
+		<input type="text" placeholder="Effekt (enthält)" id="filter_effekt"/>
+	</div>
+	<!--
+		Punkte, Angriff, Verteidigung: (operator)(drop-down)
+		Angriffstyp: (drop-down)
+		Effekt: (enthält)
+		Effekt-Schlüsselwort: (drop-down). Alternativ: Autovervollständigung im Effekt Textfield (in-line und mit Leerzeichen danach) -->
+</section>
+<section class="set phexcaer">
+	<h2>Set: Phexcaer (PHE)</h2>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Calenleya Eisbringer</h3>
+		<p class="fraktion">Abenteurer</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Florindel Elodrion</h3>
+		<p class="fraktion">Abenteurer</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Heil</div>
+		<div class="verteidigung">8</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Rekarafi Lowanger</h3>
+		<p class="fraktion">Abenteurer</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Banditenführer</h3>
+		<p class="fraktion">Banditen</p>
+
+		<p class="effekt">
+			Banditen: +1 A
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Raubritter mit Armbrust</h3>
+		<p class="fraktion">Banditen</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Wegelagerer</h3>
+		<p class="fraktion">Banditen</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">4</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Bodiak Drôm</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Brobera, Tochter der Brodba</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Der Jäger</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Dolch</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">5</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Drôm-Schläger</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">4</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Ektor Grimob</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+			Betäubung (10)
+		</p>
+
+		<div class="punkte">5</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Galius Stark</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+			Bürger: +1 V
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Hauptmann der Wache</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+			Bürger: +1 A
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">9</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Jarok Rittertod</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+			Bürger: +1 A
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Lutia Dunkelfarn</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Rodulf Derpel</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+			Heilt alle deine Karten um 1, wenn er angreift
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Yolofur Oman</h3>
+		<p class="fraktion">Bürger</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Bannstaub</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+			Schädigt nur Magische
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Explosion</div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Krähenfüße</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+			Schädigt nur Fortbewegungsmittel
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">6</div>
+		<div class="angriffstyp">Explosion</div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Stadtbrand</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Explosion</div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Steinschlag</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">5</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Explosion</div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Höllenschädel</h3>
+		<p class="fraktion">Einmalig, Unheilige</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Explosion</div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Dreimaster</h3>
+		<p class="fraktion">Fortbewegungsmittel</p>
+
+		<p class="effekt">
+			Verteidiger
+		</p>
+
+		<div class="punkte">30</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">12</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Kutsche</h3>
+		<p class="fraktion">Fortbewegungsmittel</p>
+
+		<p class="effekt">
+			Verteidiger
+		</p>
+
+		<div class="punkte">25</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">10</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Pferd</h3>
+		<p class="fraktion">Fortbewegungsmittel</p>
+
+		<p class="effekt">
+			Verteidiger
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">4</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Ruderboot</h3>
+		<p class="fraktion">Fortbewegungsmittel</p>
+
+		<p class="effekt">
+			Verteidiger
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">8</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Streitwagen</h3>
+		<p class="fraktion">Fortbewegungsmittel</p>
+
+		<p class="effekt">
+			Verteidiger
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Archomagus</h3>
+		<p class="fraktion">Magier</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">10</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Riva Kampfmagier</h3>
+		<p class="fraktion">Magier</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Verhüllter Meister</h3>
+		<p class="fraktion">Magier</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">25</div>
+		<div class="angriff">6</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">10</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Elementarer Diener</h3>
+		<p class="fraktion">Magisch</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Flammenschwert</h3>
+		<p class="fraktion">Magisch</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">3</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Humus-Elementar</h3>
+		<p class="fraktion">Magisch</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Heil</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Magischer Wächter</h3>
+		<p class="fraktion">Magisch</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Bannstrahler</h3>
+		<p class="fraktion">Obrigkeit</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Inquisitor</h3>
+		<p class="fraktion">Obrigkeit</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Pfeil des Lichts</h3>
+		<p class="fraktion">Obrigkeit</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">30</div>
+		<div class="angriff">7</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">12</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Praios-Schrein</h3>
+		<p class="fraktion">Obrigkeit</p>
+
+		<p class="effekt">
+			Obrigkeit: +1 A/V
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Schildwache</h3>
+		<p class="fraktion">Obrigkeit</p>
+
+		<p class="effekt">
+			Rüstung 1
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Orkhäuptling</h3>
+		<p class="fraktion">Orks</p>
+
+		<p class="effekt">
+			Orks: +1 A
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Orkischer Jäger</h3>
+		<p class="fraktion">Orks</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">4</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Orkischer Räuber</h3>
+		<p class="fraktion">Orks</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">4</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Söldner-Hauptmann</h3>
+		<p class="fraktion">Söldner</p>
+
+		<p class="effekt">
+			Söldner: +1 A
+		</p>
+
+		<div class="punkte">25</div>
+		<div class="angriff">6</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">10</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Söldner-Schütze</h3>
+		<p class="fraktion">Söldner</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">8</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Veteranensöldner</h3>
+		<p class="fraktion">Söldner</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff">7</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Borbarad</h3>
+		<p class="fraktion">Unheilige</p>
+
+		<p class="effekt">
+			Unheilige: +2 A
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Feuerteufel</h3>
+		<p class="fraktion">Unheilige</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">4</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Karmoth</h3>
+		<p class="fraktion">Unheilige</p>
+
+		<p class="effekt">
+			Explosionsschaden
+		</p>
+
+		<div class="punkte">50</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">14</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Lebender Leichnam</h3>
+		<p class="fraktion">Unheilige</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">5</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Nachtdämon</h3>
+		<p class="fraktion">Unheilige</p>
+
+		<p class="effekt">
+			Umkreisschaden 1
+		</p>
+
+		<div class="punkte">25</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">10</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Skelettschütze</h3>
+		<p class="fraktion">Unheilige</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">5</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Untoter Troll</h3>
+		<p class="fraktion">Unheilige</p>
+
+		<p class="effekt">
+			Betäubung (10)
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">9</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Zant</h3>
+		<p class="fraktion">Unheilige</p>
+
+		<p class="effekt">
+			Betäubung (10)
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">7</div>
+	</div>
+</section>
+<section class="set dunkleGruppe">
+	<h2>Set: Dunkle Gruppe (DGP)</h2>
+
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Verkünderin des Derzal</h3>
+		<p class="fraktion">Nachtalben</p>
+
+		<p class="effekt">
+			Kann alternativ alle für A/2 heilen
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Heil</div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">"Flugzauber"</h3>
+		<p class="fraktion">Nachtalben</p>
+
+		<p class="effekt">
+			Überraschungsrettung, Fliegend
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">9</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Azzitai, die allesverzehrende blutrote Flamme</h3>
+		<p class="fraktion">Dämonisch</p>
+
+		<p class="effekt">
+			Umkreisschaden 1
+		</p>
+
+		<div class="punkte">30</div>
+		<div class="angriff">7</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">11</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Tyakaar-Drache</h3>
+		<p class="fraktion">Dämonisch</p>
+
+		<p class="effekt">
+			Hohe Kosten 1, Explosionsschaden, Fliegend
+		</p>
+
+		<div class="punkte">40</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">12</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Gestaltwandel</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+			Bringe eine gegnerische Karte in dein Feld
+		</p>
+
+		<div class="punkte">30</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Strategische Bösartigkeit</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+			X Schaden für alle Gegner (X = Anzahl gegnerischer Karten)
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">X</div>
+		<div class="angriffstyp">Explosion</div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Bezahlter Meuchelmörder</h3>
+		<p class="fraktion">Mensch</p>
+
+		<p class="effekt">
+			Hinterhalt
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Übergetretener</h3>
+		<p class="fraktion">Mensch</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">5</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Zwergischer Scharfschütze</h3>
+		<p class="fraktion">Zwerge</p>
+
+		<p class="effekt">
+			Hinterhalt
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Aggari Armbrust</h3>
+		<p class="fraktion">Dämonisch</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Improvisierte Schmiede</h3>
+		<p class="fraktion">Zwerge</p>
+
+		<p class="effekt">
+			Alle: +1 A/V
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Zwergischer Handwerkslehrling</h3>
+		<p class="fraktion">Zwerge</p>
+
+		<p class="effekt">
+			Kann alternativ A/2 heilen
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Panthermensch</h3>
+		<p class="fraktion">Dämonisch, Magisch</p>
+
+		<p class="effekt">
+			Magische Resistenz, Regeneration 1
+		</p>
+
+		<div class="punkte">30</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">14</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Iryanrüstung</h3>
+		<p class="fraktion">Rüstung</p>
+
+		<p class="effekt">
+			Verteidiger, Feuerresistenz
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">4</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Beidhändiger Kampf</h3>
+		<p class="fraktion"></p>
+
+		<p class="effekt">
+			A entspricht der Karte links
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">?</div>
+		<div class="angriffstyp">?</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Soldat des Ordens</h3>
+		<p class="fraktion"></p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Vierarmige Kampfmaschine</h3>
+		<p class="fraktion">Mensch</p>
+
+		<p class="effekt">
+			2 Angriffe pro Runde, Zäher Hund
+		</p>
+
+		<div class="punkte">25</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">9</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Axt des Blutgottes</h3>
+		<p class="fraktion">Dämonisch</p>
+
+		<p class="effekt">
+			Kann nur angreifen, wenn mind. 1 weitere Karte liegt. +2 A wenn diese Karte "Vierarmige Kampfmaschine" ist
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">6</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">3</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Bewaffnete Jünglinge</h3>
+		<p class="fraktion">Mensch</p>
+
+		<p class="effekt">
+			Nehmen höchstens 1 Schaden pro Angriff
+		</p>
+
+		<div class="punkte">5</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Thorwaler Rundschild</h3>
+		<p class="fraktion">Rüstung</p>
+
+		<p class="effekt">
+			Verteidiger
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">8</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Zusammengenähter Chirurg</h3>
+		<p class="fraktion">Mensch</p>
+
+		<p class="effekt">
+			Kann sich selbst heilen
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Heil</div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Helfende Hand im Glas</h3>
+		<p class="fraktion">Zombie</p>
+
+		<p class="effekt">
+			Tick: +1 A für einen Heiler für diese Runde ODER 1 Karte ins Feld legen (10)
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">4</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Anatomisch komisch </h3>
+		<p class="fraktion">Verstärkung</p>
+
+		<p class="effekt">
+			Verleiht einer organischen Einheit Bonus auf A/V
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">+3</div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">+3</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Das Monster</h3>
+		<p class="fraktion">Fleischgolem</p>
+
+		<p class="effekt">
+			Umkreisschaden 2, Langsam
+		</p>
+
+		<div class="punkte">30</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">9</div>
+	</div>
+</section>
+<section class="set reichsforst">
+	<h2>Set: Reichsforst (RFO)</h2>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Raxan Schattenschwinge</h3>
+		<p class="fraktion">Hexe</p>
+
+		<p class="effekt">
+			+1 A/V für alle Hexen; Hellsicht 3
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Krähenruf</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+			Füllt alle freien Felder mit Krähen (Fliegend)
+		</p>
+
+		<div class="punkte">25</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Horax, der Rabe</h3>
+		<p class="fraktion">Tier, Hexe</p>
+
+		<p class="effekt">
+			Fliegend; +1 A/V für Raxan
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">3</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">3</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Rahjagunde von Falkenwind</h3>
+		<p class="fraktion">Hexe</p>
+
+		<p class="effekt">
+			Hinterhalt
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Kater Nebuk</h3>
+		<p class="fraktion">Tier, Hexe</p>
+
+		<p class="effekt">
+			Hinterhalt, +1 A/V für Rahjagunde
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">3</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Waldspinne</h3>
+		<p class="fraktion">Spinne</p>
+
+		<p class="effekt">
+			Hinterhalt, Betäubung (5)
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">4</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Große Waldspinne</h3>
+		<p class="fraktion">Spinne</p>
+
+		<p class="effekt">
+			Hinterhalt, Betäubung (8)
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff">6</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">8</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Waldspinnen-Königin</h3>
+		<p class="fraktion">Spinne</p>
+
+		<p class="effekt">
+			+1 V für Spinnen, erzeugt jede Runde 1 Spinnling
+		</p>
+
+		<div class="punkte">25</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">12</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Vernetzter Wald</h3>
+		<p class="fraktion">Baum, Fortbewegungsmittel</p>
+
+		<p class="effekt">
+			Alle Spinnen: +1 A, Reichweite Mittel
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Elfischer Späher</h3>
+		<p class="fraktion">Waldelf</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">3</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Ikarina-Schmetterling</h3>
+		<p class="fraktion">Tier</p>
+
+		<p class="effekt">
+			Fliegend; Muss angegriffen werden; Resistenz gegen Magie;30% Ausweichen gegen Mittel und Fern
+		</p>
+
+		<div class="punkte">5</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">2</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Einhorn</h3>
+		<p class="fraktion">Tier, Feen</p>
+
+		<p class="effekt">
+			Regeneration 1; Resistenz gegen Magie
+		</p>
+
+		<div class="punkte">30</div>
+		<div class="angriff">7</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">12</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Verborgenes Moor</h3>
+		<p class="fraktion">Gelände</p>
+
+		<p class="effekt">
+			-1 A für Nicht-Waldbewohner
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Salander Lilacina</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+			Verwandelt eine Karte in einen lila Rosenstrauch (0 A)
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Lebender Baum</h3>
+		<p class="fraktion">Baum</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Blutulme</h3>
+		<p class="fraktion">Baum</p>
+
+		<p class="effekt">
+			+1 A/V für Waldbewohner
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">7</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Waldschrat</h3>
+		<p class="fraktion">Schrat</p>
+
+		<p class="effekt">
+			Hinterhalt, Betäubung (6), Rüstung 1
+		</p>
+
+		<div class="punkte">25</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">10</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Wurzelbold-Sippe</h3>
+		<p class="fraktion">Feen</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">5</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">3</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Haindruide</h3>
+		<p class="fraktion">Zauberer</p>
+
+		<p class="effekt">
+			Kann für 2 heilen
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Bären-Biestinger</h3>
+		<p class="fraktion">Feen</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">9</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Verschwindibus</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+			Gegnerische Karte wegmischen
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Feenwirbel</h3>
+		<p class="fraktion">Einmalig</p>
+
+		<p class="effekt">
+			Alle eigenen Karten umpositionieren
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung"></div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Feentor</h3>
+		<p class="fraktion">Feen</p>
+
+		<p class="effekt">
+			Alle Feen: +1 A, Regeneration 1
+		</p>
+
+		<div class="punkte">25</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">10</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Dryade</h3>
+		<p class="fraktion">Feen</p>
+
+		<p class="effekt">
+			Verführung gegen Männer (10); Hinterhalt
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">8</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Herbast der Hüter</h3>
+		<p class="fraktion">Zauberer</p>
+
+		<p class="effekt">
+			Elementar-Schaden
+		</p>
+
+		<div class="punkte">15</div>
+		<div class="angriff">5</div>
+		<div class="angriffstyp">Fern</div>
+		<div class="verteidigung">6</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Humus-Elementar</h3>
+		<p class="fraktion">Elementar</p>
+
+		<p class="effekt">
+
+		</p>
+
+		<div class="punkte">10</div>
+		<div class="angriff">2</div>
+		<div class="angriffstyp">Heal</div>
+		<div class="verteidigung">5</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Humusdrache</h3>
+		<p class="fraktion">Elementar</p>
+
+		<p class="effekt">
+			Betäubung (16); Regeneration 2; Fliegend
+		</p>
+
+		<div class="punkte">50</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Mittel</div>
+		<div class="verteidigung">15</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Blutulmen-König</h3>
+		<p class="fraktion">Baum</p>
+
+		<p class="effekt">
+			-1 A/V für Nicht-Waldbewohner, +1 A/V für Waldbewohner
+		</p>
+
+		<div class="punkte">30</div>
+		<div class="angriff">4</div>
+		<div class="angriffstyp">Nah</div>
+		<div class="verteidigung">14</div>
+	</div>
+	<div class="bbcode-SchlachtUmAventurien">
+		<h3 class="name">Wand aus Dornen</h3>
+		<p class="fraktion">Mauer, Elementar</p>
+
+		<p class="effekt">
+			Muss angegriffen werden; 2 Schaden gegen Angreifer
+		</p>
+
+		<div class="punkte">20</div>
+		<div class="angriff"></div>
+		<div class="angriffstyp"></div>
+		<div class="verteidigung">7</div>
+	</div>
+</section>
+</body>
+</html>

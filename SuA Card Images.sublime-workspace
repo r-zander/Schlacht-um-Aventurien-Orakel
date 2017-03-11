@@ -1,0 +1,635 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"all",
+				"allReplace"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"an",
+				"angriffstyp"
+			],
+			[
+				"ang",
+				"angriff"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"con",
+				"contents"
+			],
+			[
+				"fra",
+				"fraktion"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"mys",
+				"mysql_query"
+			],
+			[
+				"bb",
+				"bbcode-sub"
+			],
+			[
+				"catego",
+				"category"
+			],
+			[
+				"categor",
+				"category_id"
+			],
+			[
+				"new",
+				"newLink"
+			],
+			[
+				"my",
+				"mysql_query"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 39595,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "SuA Card Images.sublime-project",
+			"settings":
+			{
+				"buffer_size": 178,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.less",
+			"settings":
+			{
+				"buffer_size": 2681,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 73.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Set Syntax: JavaScript Next"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Schlacht um Aventurien/Card Images",
+		"/C/Users/XieLong/AppData/Local/Cockatrice/Cockatrice/customsets"
+	],
+	"file_history":
+	[
+		"/E/Schlacht um Aventurien/Card Images/SuA Card Images.sublime-workspace",
+		"/C/Users/XieLong/AppData/Local/Cockatrice/Cockatrice/customsets/01.schlacht-um-aventurien.xml",
+		"/X/Eigene Dateien/Das Schwarze Auge/Schlacht um Aventurien/Card Images/index.html",
+		"/X/Eigene Dateien/Hobbys/Magic the Gathering/Cockatrice/cards.xml",
+		"/X/Eigene Dateien/Das Schwarze Auge/Schlacht um Aventurien/Card Images/style.less",
+		"/X/Eigene Dateien/Das Schwarze Auge/Schlacht um Aventurien/Card Images/all-cards.html",
+		"/X/Eigene Dateien/Das Schwarze Auge/50 Spielleiter/Kampftag/Shield.svg",
+		"/X/Eigene Dateien/Das Schwarze Auge/Schlacht um Aventurien/Card Images/style.min.css",
+		"/C/Users/XieLong/AppData/Roaming/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/C/Users/XieLong/AppData/Roaming/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/C/Users/XieLong/AppData/Roaming/Sublime Text 3/Packages/LESS/LESS.sublime-settings",
+		"/C/Users/XieLong/Desktop/Borderlands 2 Weapons.txt",
+		"/X/Eigene Dateien/Hobbys/Magic the Gathering/Cockatrice/decks/Schlacht um Aventurien/Söldner.cod",
+		"/C/Users/XieLong/Documents/My Games/Borderlands 2/WillowGame/Config/WillowEngine.ini",
+		"/E/workspaces/discourse/discourse-dsa-bbcode/assets/javascripts/lib/discourse-markdown/dsa-bbcode.js.es6",
+		"/E/workspaces/discourse/discourse-SuA-bbcode/assets/javascripts/lib/discourse-markdown/sua-bbcode.js.es6",
+		"/E/workspaces/discourse/discourse/app/assets/javascripts/pretty-text/engines/discourse-markdown/bbcode.js.es6",
+		"/E/workspaces/discourse/discourse/app/assets/javascripts/pretty-text/engines/discourse-markdown.js.es6",
+		"/E/workspaces/discourse/discourse/app/assets/javascripts/pretty-text/engines/discourse-markdown/code.js.es6",
+		"/E/workspaces/discourse/discourse-forumieren-bbcode/assets/javascripts/lib/discourse-markdown/forumieren-bbcode.js.es6",
+		"/E/workspaces/discourse/discourse-SuA-bbcode/Concept.html",
+		"/E/workspaces/discourse/discourse-SuA-bbcode/assets/stylesheets/sua-bbcodes.scss",
+		"/C/Users/XieLong/Downloads/charm.svg",
+		"/C/Users/XieLong/Desktop/a5-forum.txt",
+		"/C/Users/XieLong/Downloads/spinning-sword.svg",
+		"/C/Users/XieLong/Downloads/spinning-sword (1).svg",
+		"/C/Users/XieLong/Downloads/abstract-041.svg",
+		"/C/Users/XieLong/Downloads/sunbeams.svg",
+		"/E/workspaces/discourse/discourse-SuA-bbcode/plugin.rb",
+		"/E/workspaces/discourse/discourse-SuA-bbcode/README.md",
+		"/C/Users/XieLong/VirtualBox VMs/Discourse Box/Logs/VBoxHardening.log",
+		"/E/workspaces/discourse/discourse/plugins/discourse-details/assets/javascripts/lib/discourse-markdown/details.js.es6",
+		"/E/workspaces/discourse/discourse/app/assets/javascripts/pretty-text/engines/discourse-markdown/table.js.es6",
+		"/E/workspaces/discourse/discourse/app/assets/javascripts/pretty-text/engines/discourse-markdown/quote.js.es6",
+		"/C/Users/XieLong/AppData/Local/Temp/scp27082/var/discourse/containers/app.yml",
+		"/C/Users/XieLong/AppData/Local/Temp/scp08742/var/discourse/containers/app.yml",
+		"/E/workspaces/discourse/discourse-dsa-bbcode/plugin.rb",
+		"/E/workspaces/discourse/discourse-dsa-bbcode/README.md",
+		"/C/Users/XieLong/AppData/Local/Temp/scp38717/var/discourse/containers/app.yml",
+		"/C/Users/XieLong/AppData/Local/Temp/scp49606/var/discourse/launcher",
+		"/E/workspaces/discourse/discourse-dsa-bbcode/assets/stylesheets/dsa-bbcodes.scss",
+		"/C/Users/XieLong/AppData/Local/Temp/scp18332/var/discourse/containers/app.yml",
+		"/C/Users/XieLong/Desktop/Borderlands 2 Weapons",
+		"/C/Users/XieLong/AppData/Local/Temp/scp41542/var/discourse/containers/app.yml",
+		"/C/Users/XieLong/AppData/Local/Temp/scp30412/var/discourse/containers/app.yml",
+		"/E/workspaces/discourse/discourse/app/assets/javascripts/pretty-text/engines/discourse-markdown/html.js.es6",
+		"/E/workspaces/discourse/discourse-dsa-bbcode/assets/stylesheets/dsa-bbcode.scss",
+		"/E/workspaces/discourse/discourse/plugins/discourse-details/assets/stylesheets/details.scss",
+		"/E/workspaces/discourse/discourse/plugins/discourse-details/plugin.rb",
+		"/E/workspaces/discourse/discourse/plugins/discourse-details/assets/javascripts/details.js",
+		"/E/workspaces/discourse/discourse-forumieren-bbcode/assets/javascripts/lib/discourse-markdown/dsa-bbcode.js.es6",
+		"/E/workspaces/discourse/discourse-forumieren-bbcode/plugin.rb",
+		"/E/workspaces/discourse/discourse-dsa-bbcode/.gitattributes",
+		"/E/workspaces/discourse/discourse-dsa-bbcode/ (2).gitattributes",
+		"/C/Users/XieLong/Downloads/spritz-bookmarklet.js",
+		"/E/workspaces/discourse/discourse/app/assets/javascripts/discourse/widgets/private-message-map.js.es6",
+		"/E/workspaces/discourse/discourse/app/assets/javascripts/discourse/lib/transform-post.js.es6",
+		"/E/workspaces/discourse/discourse/lib/guardian.rb",
+		"/E/workspaces/discourse/retort/assets/javascripts/discourse/widgets/templates/retort-toggle.js.es6",
+		"/E/workspaces/discourse/discbot/src/discourse.coffee",
+		"/E/workspaces/discourse/discbot/src/robot.coffee",
+		"/E/workspaces/discourse/discbot/src/scripts/wuerfel.coffee",
+		"/E/workspaces/discourse/discbot/bin/discbot",
+		"/E/workspaces/discourse/discbot/src/scripts/dice.coffee",
+		"/E/workspaces/discourse/discbot/src/scripts/help.coffee",
+		"/C/Users/XieLong/AppData/Local/Temp/scp12356/lib/systemd/system/discbot.service",
+		"/C/Users/XieLong/AppData/Local/Temp/scp19632/usr/share/discbot/bin/discbot",
+		"/C/Users/XieLong/AppData/Local/Temp/scp15533/var/discourse/launcher",
+		"/C/Users/XieLong/AppData/Local/Temp/scp57005/var/discourse/containers/app.yml",
+		"/E/workspaces/discourse/vbulletin-bbcode-master/assets/javascripts/lib/discourse-markdown/vbulletin-bbcode.js.es6",
+		"/C/Users/XieLong/AppData/Local/Temp/scp08625/var/discourse/containers/app.yml",
+		"/C/Users/XieLong/AppData/Local/Temp/scp40336/var/lib/docker/aufs/mnt/849b4289cdd166347b07a5ea0afa7a08972133224baa22011f7a8c678c30b3f6/var/www/discourse/plugins/discourse-forumieren-bbcode/assets/javascripts/lib/discourse-markdown/forumieren-bbcode.js.es6",
+		"/C/Users/XieLong/AppData/Local/Temp/scp40984/var/lib/docker/aufs/mnt/849b4289cdd166347b07a5ea0afa7a08972133224baa22011f7a8c678c30b3f6/var/www/discourse/plugins/retort/config/locales/client.de.yml",
+		"/E/workspaces/discourse-whos-online/config/locales/client.de.yml",
+		"/E/workspaces/discourse-whos-online/config/locales/server.de.yml",
+		"/E/workspaces/retort/config/locales/client.en.yml",
+		"/E/workspaces/retort/config/locales/client.de.yml",
+		"/E/workspaces/retort/config/locales/client.es.yml",
+		"/C/Users/XieLong/AppData/Local/Google/Chrome/User Data/Crashpad/metadata",
+		"/C/Users/XieLong/AppData/Local/Google/Chrome/User Data/Crashpad/settings.dat",
+		"/C/Users/XieLong/AppData/Local/Temp/scp24571/var/discourse/containers/app.yml",
+		"/C/Users/XieLong/Downloads/discourse-forumieren-bbcode/assets/javascripts/lib/discourse-markdown/forumieren-bbcode.js.es6",
+		"/C/Users/XieLong/AppData/Local/Temp/scp36394/var/discourse/containers/app.yml",
+		"/C/Users/XieLong/Downloads/vbulletin-bbcode-master/assets/javascripts/lib/discourse-markdown/vbulletin-bbcode.js.es6",
+		"/C/Users/XieLong/Downloads/discourse-forumieren-bbcode/README.md",
+		"/C/Users/XieLong/Downloads/discourse-forumieren-bbcode/plugin.rb",
+		"/C/Users/XieLong/AppData/Local/Temp/scp53347/lib/systemd/system/discbot.service",
+		"/C/Users/XieLong/AppData/Local/Temp/scp39394/etc/init/discbot.conf",
+		"/C/Users/XieLong/Downloads/MailButler_6755/MailButler.app/Contents/MacOS/MailButler",
+		"/C/Users/XieLong/Downloads/MailButler_6755/MailButler.app/Contents/Info.plist",
+		"/C/Users/XieLong/Downloads/MailButler_6755/MailButler.app/Contents/PkgInfo",
+		"/E/VirtualBox/Discourse Box/shared/import_script/forumieren.rb",
+		"/E/VirtualBox/Discourse Box/shared/import_script/punbb.rb",
+		"/E/VirtualBox/Discourse Box/shared/import_script/base.rb",
+		"/C/Users/XieLong/AppData/Roaming/Sublime Text 3/Packages/User/ESLint.sublime-settings",
+		"/C/Users/XieLong/AppData/Local/Temp/scp38792/var/discourse/containers/app.yml",
+		"/C/Users/XieLong/AppData/Roaming/npm/eslint.cmd",
+		"/E/VirtualBox/Discourse Box/shared/forumieren-bbcode/assets/javascripts/lib/discourse-markdown/forumieren-bbcode.js.es6",
+		"/C/Users/XieLong/Downloads/staryu.svg",
+		"/C/Users/XieLong/Downloads/pentacle.svg",
+		"/C/Users/XieLong/Downloads/crown-coin.svg",
+		"/C/Users/XieLong/Downloads/gold-stack.svg",
+		"/C/Users/XieLong/Downloads/shiny-purse.svg",
+		"/C/Users/XieLong/Downloads/forumieren-bbcode/plugin.rb",
+		"/C/Users/XieLong/Downloads/forumieren-bbcode/assets/javascripts/lib/discourse-markdown/forumieren-bbcode.js.es6",
+		"/C/Users/XieLong/Downloads/forumieren-bbcode/assets/javascripts/lib/discourse-markdown/vbulletin-bbcode.js.es6",
+		"/C/Users/XieLong/Downloads/forumieren-bbcode/assets/javascripts/forumieren_bbcode.js",
+		"/C/Users/XieLong/Downloads/forumieren-bbcode/assets/javascripts/vbulletin_bbcode.js",
+		"/C/Users/XieLong/Downloads/forumieren-bbcode/.eslintrc",
+		"/E/VirtualBox/Discourse Box/shared/forums.sql",
+		"/C/Users/XieLong/Downloads/base.rb",
+		"/C/Users/XieLong/Downloads/punbb.rb",
+		"/C/Users/XieLong/Downloads/forumieren.rb",
+		"/C/Users/XieLong/Downloads/dsa_forum-users.sql",
+		"/C/Users/XieLong/Downloads/dsa_forum.sql"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"E:\\workspaces\\discourse\\discourse",
+			"E:\\workspaces\\discourse\\retort",
+			"E:\\workspaces\\discourse\\discbot",
+			"E:\\workspaces\\discourse\\discourse",
+			"C:\\Users\\XieLong\\Downloads\\discourse-master"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\"\"",
+			" </card>\"",
+			"\"<card>",
+			"\"\"",
+			" </card>\"",
+			"\"<card>",
+			"  \t",
+			"    ",
+			"bbcode-SchlachtUmAventurien ",
+			"<div>",
+			"    ",
+			"\"\"",
+			"</div>\"",
+			"\"<div",
+			"\"<div>",
+			"\"\"",
+			" </card>\"",
+			"\"<card>",
+			"    ",
+			"\"\"",
+			"</card>\"",
+			"\"<card>",
+			"    ",
+			"&amp;",
+			"</a>",
+			"\" class=\"title( visited)?\">",
+			"  <a href=\"",
+			"^(?!  <a href=\"/t).*\\n",
+			"replaceBlock({",
+			"[/b][/u]",
+			"[u][b]",
+			"_",
+			"[/color]",
+			"[color=yellow]",
+			" colspan=\"2\"",
+			"</tr><tr>",
+			"<td></td>",
+			"cleanup",
+			"replaceBlock",
+			"noWrap",
+			"registerBlock",
+			"replaceBlock",
+			"generate",
+			"className",
+			"register(",
+			"register",
+			"enabled_site_setting",
+			"singlePara",
+			"processBlock",
+			"replaceBBCode",
+			"replaceBlock",
+			"is_staff",
+			"can_invite_to",
+			"canInvite",
+			"private_message_info",
+			"reacted with",
+			"roll",
+			"\\u00fc",
+			"/roll (\\d?\\d?)d(\\d+)(\\+|-)?(\\d?)(.*?)$/i",
+			"addHelpCommand",
+			"13",
+			"helper.whiteList({",
+			", ",
+			" \\([^)]+\\) -.*",
+			",",
+			", ",
+			"errors.messages.is_invalid",
+			"Body seems unclear, is it a complete sentence?",
+			"import_",
+			"spoiler",
+			"vbu",
+			"where",
+			"user",
+			"/u",
+			"Post.where",
+			"raw",
+			"create_Cate",
+			"'],\n",
+			"UserNameSuggester",
+			"PUNBB_DB"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"",
+			"</card>",
+			"<card>",
+			"\"",
+			"</card>",
+			"<card>",
+			"\\t",
+			"bbcode-SchlachtUmAventurien",
+			"<div",
+			"\\t",
+			"\"",
+			"</div>",
+			"<div>",
+			"\"",
+			"</card>",
+			"<card>",
+			"\\t",
+			"\"",
+			"</card>",
+			"<card>",
+			"\\t",
+			"&",
+			"",
+			"\\t",
+			"http://forum.rza.io",
+			"",
+			"**<br />",
+			"**",
+			"***",
+			"_",
+			"",
+			"</tr>\\n<tr>",
+			"",
+			"würfel",
+			"ü",
+			"\\n",
+			"",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2356,
+								2356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "SuA Card Images.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.51671641791,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 395.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SuA Card Images.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 380.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 432.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
