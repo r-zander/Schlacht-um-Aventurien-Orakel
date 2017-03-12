@@ -31,7 +31,13 @@ section.download {
   margin-bottom: 1.5em;
   border-bottom: 1px solid black;
 }
-section.set {
+#previewDownload {
+  margin-top: 1.2em;
+}
+#previewDownload a[download] {
+  background-color: #e91e63;
+}
+section.cards {
   overflow: hidden;
   padding-bottom: 44mm;
 }
@@ -47,12 +53,21 @@ section.set {
   border: 3px solid black;
   text-align: center;
   font-size: 14px;
+  color: inherit;
+  text-decoration: none;
   position: relative;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .bbcode-SchlachtUmAventurien:hover {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.bbcode-SchlachtUmAventurien.token {
+  background-image: linear-gradient(315deg, #999999, #c9c9c9);
+}
+.bbcode-SchlachtUmAventurien.token .fraktion::before {
+  content: "Token, ";
+  font-weight: bold;
 }
 .name,
 .fraktion {

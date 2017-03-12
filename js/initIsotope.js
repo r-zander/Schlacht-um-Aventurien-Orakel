@@ -1,23 +1,7 @@
 "use strict";
 
 $(document).on('setsLoaded', function () {
-// $(function () {
-	// Modify the HTML structure a little bit
-	$('.set.phexcaer > .bbcode-SchlachtUmAventurien').addClass('set-PHE');
-	$('.set.dunkleGruppe > .bbcode-SchlachtUmAventurien').addClass('set-DGP');
-	$('.set.reichsforst > .bbcode-SchlachtUmAventurien').addClass('set-RFO');
-	$('.set.preview > .bbcode-SchlachtUmAventurien').each(function () {
-		var $this = $(this);
-		var parentClasses = $this.parent().attr('class').split(/\s+/);
-		$this.addClass('set-' + parentClasses[parentClasses.length - 1]);
-	});
-
-
-	var gridContainer = $('<section class="isotope"></section>');
-	var $setSections = $('section.set');
-	$setSections.first().after(gridContainer);
-	gridContainer.append($('.bbcode-SchlachtUmAventurien'));
-	$setSections.remove();
+	var gridContainer = $('section.cards');
 
 	function intSortData(item, selector) {
 		var text = $(item).find(selector).text();
@@ -91,14 +75,13 @@ $(document).on('setsLoaded', function () {
 			var $this = $(this);
 
 			if (filter.set !== 'all') {
-
 				if (typeof filter.set === 'string') {
 					if (!$this.hasClass('set-' + filter.set)) {
 						return false;
 					}
 				} else {
 					if (!filter.set.some(function (setName) {
-							return $this.hasClass('set-' + setName);
+							return setName === 'all' || $this.hasClass('set-' + setName);
 						})) {
 						return false;
 					}
@@ -160,15 +143,20 @@ $(document).on('setsLoaded', function () {
 	var $filterSet = $('#filter_set');
 
 	previewSet.forEach(function (setName) {
-		$filterSet.append('<option value="' + setName + '">' + setName.capitalize() + '</option>');
+		$filterSet.prepend(
+			'<option value="' + setName + '">' +
+			setMappingInverted[setName].capitalize() + ' (' + setName + ')' +
+			'</option>');
 	});
 
-	if (previewSet.length > 0){
-		$filterSet.val(previewSet[0]);
+	$filterSet.children('[value=all]').prependTo($filterSet);
+
+	if (previewSet.length > 0) {
+		$filterSet.val(previewSet);
 	}
 
 	$filterSet.change(function () {
-		filter.set = this.value;
+		filter.set = $(this).val();
 		gridContainer.isotope();
 	});
 

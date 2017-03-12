@@ -22,6 +22,14 @@ function getUrlParameter(sParam, lowerCase) {
 	}
 }
 
+var setMapping = {
+	florindel: "FLO"
+};
+
+var setMappingInverted = {
+	FLO: "florindel"
+};
+
 $(function () {
 	var setPreview = getUrlParameter('setPreview');
 	if (setPreview) {
@@ -33,12 +41,9 @@ $(function () {
 				$.ajax({
 					url: 'preview/' + setName + '.partial.html',
 					success: function (setHtml) {
-						var newSection = $('<section class="set preview ' + setName + '"></section>');
-						$('section.set').last().after(newSection);
-						newSection.append('<h2>' + 'Set: ' + setName.capitalize() + '</h2>');
-						newSection.append(setHtml);
+						$('section.cards').append(setHtml);
 
-						previewSet.push(setName);
+						previewSet.push(setMapping[setName]);
 					},
 					complete: function () {
 						setsToLoad--;
@@ -54,5 +59,7 @@ $(function () {
 				}
 			}
 		});
+	} else {
+		$(document).trigger('setsLoaded');
 	}
 });

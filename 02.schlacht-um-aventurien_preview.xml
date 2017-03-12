@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+    <sets>
+        <set>
+            <name>SuA-FLO</name>
+            <longname>Florindel</longname>
+            <settype>Expansion</settype>
+            <releasedate>2017-03-01</releasedate>
+        </set>
+    </sets>
+    <cards>
+
+<card>
+    <name>Dschinnenruf</name>
+    <set picURL="http://sua.rza.io/dschinnenruf.png">SuA-FLO</set>
+    <manacost>30</manacost>
+    <cmc>30</cmc>
+    <type>Zauber, Elementar</type>
+    <pt>/1</pt>
+    <tablerow>2</tablerow>
+    <text>Tick: Opfere Dschinnenruf und bringe einen Dschinn ins Spiel.</text>
+    <cipt>1</cipt>
+</card>
+<card>
+<name>Erzdschinn</name>
+<set picURL="http://sua.rza.io/erzdschinn.png">SuA-FLO</set>
+<manacost>25</manacost>
+<cmc>25</cmc>
+<type>Elementar, Erz</type>
+<pt>6M/8</pt>
+<tablerow>2</tablerow>
+<text>Rüstung 1</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Humusdschinn</name>
+<set picURL="http://sua.rza.io/humusdschinn.png">SuA-FLO</set>
+<manacost>20</manacost>
+<cmc>20</cmc>
+<type>Elementar, Humus</type>
+<pt>3H/8</pt>
+<tablerow>2</tablerow>
+<text>Alternativer Angriff: Mittel</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Luftdschinn</name>
+<set picURL="http://sua.rza.io/luftdschinn.png">SuA-FLO</set>
+<manacost>25</manacost>
+<cmc>25</cmc>
+<type>Elementar, Luft</type>
+<pt>4F/8</pt>
+<tablerow>2</tablerow>
+<text>Fliegend</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Alte Tricks - Neue Kniffe</name>
+<set picURL="http://sua.rza.io/alte_tricks-neue_kniffe.png">SuA-FLO</set>
+<manacost>15</manacost>
+<cmc>15</cmc>
+<type>Einmalig</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Spiele eine Einmalig-Karte aus der Ablage (Machtprobe)</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Zaubertrank</name>
+<set picURL="http://sua.rza.io/zaubertrank.png">SuA-FLO</set>
+<manacost>5</manacost>
+<cmc>5</cmc>
+<type>Trank</type>
+<pt>/1</pt>
+<tablerow>2</tablerow>
+<text>Tick: Zaubertrank kann geopfert werden, um eine Zauber-Karte aus der Ablage zu spielen.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Gut geplante Vorbereitungen </name>
+<set picURL="http://sua.rza.io/gut_geplante_vorbereitungen_.png">SuA-FLO</set>
+<manacost>10</manacost>
+<cmc>10</cmc>
+<type>Einmalig</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Deine Seite bekommt ein weiteres Feld (Spezialprobe: 36 - 5 pro derzeitigem Feld)</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Zauberkontrolle</name>
+<set picURL="http://sua.rza.io/zauberkontrolle.png">SuA-FLO</set>
+<manacost>15</manacost>
+<cmc>15</cmc>
+<type>Sonderfertigkeit, Magisch</type>
+<pt>/5</pt>
+<tablerow>2</tablerow>
+<text>Tick: Sortieren 1</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Meisterliche Zauberkontrolle</name>
+<set picURL="http://sua.rza.io/meisterliche_zauberkontrolle.png">SuA-FLO</set>
+<manacost>25</manacost>
+<cmc>25</cmc>
+<type>Sonderfertigkeit, Magisch</type>
+<pt>/7</pt>
+<tablerow>2</tablerow>
+<text>Tick: Sortieren 2</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Magische Improvisation</name>
+<set picURL="http://sua.rza.io/magische_improvisation.png">SuA-FLO</set>
+<manacost>20</manacost>
+<cmc>20</cmc>
+<type>Einmalig</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Erlaubt es, eine Karte von außerhalb des Spiels zu spielen (Machtprobe)</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Duell der Macht</name>
+<set picURL="http://sua.rza.io/duell_der_macht.png">SuA-FLO</set>
+<manacost>20</manacost>
+<cmc>20</cmc>
+<type>Ritual</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Alle Karten werden zu X/Y anhand ihrer Punktekosten:
+    5 Punkte: 2/3 nah
+    10 Punkte: 3/5 nah
+    15 Punkte: 5/7 nah
+    20 Punkte: 6/9 nah
+    25 Punkte: 6/11 nah
+    30 Punkte: 7/13 nah
+    40 Punkte: 7/14 nah
+    50 Punkte: 8/15 nah </text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Arcanovi</name>
+<set picURL="http://sua.rza.io/arcanovi.png">SuA-FLO</set>
+<manacost>10</manacost>
+<cmc>10</cmc>
+<type>Zauber</type>
+<pt>/4</pt>
+<tablerow>2</tablerow>
+<text>Tick: Wenn kein Zauber eingeprägt ist, präge die gezogene Karte ein, wenn es ein Zauber ist.
+    Andernfalls lege eine Kopie des eingeprägten Zaubers ins Spiel und Arcanovi verliert 1 V.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Konzentrationsstärke</name>
+<set picURL="http://sua.rza.io/konzentrationsstaerke.png">SuA-FLO</set>
+<manacost>15</manacost>
+<cmc>15</cmc>
+<type>Sonderfertigkeit, Magisch</type>
+<pt>/7</pt>
+<tablerow>2</tablerow>
+<text>Zauber: Rüstung +1</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Blutmagie</name>
+<set picURL="http://sua.rza.io/blutmagie.png">SuA-FLO</set>
+<manacost>30</manacost>
+<cmc>30</cmc>
+<type>Sonderfertigkeit, Magisch</type>
+<pt>/5</pt>
+<tablerow>2</tablerow>
+<text>Tick: Opfere 1 Karte um 1 Karte zu spielen. So gespielte Dämonen haben Kritische Essenz. So gespielte Elementare werden zerstört.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Verbotene Pforten</name>
+<set picURL="http://sua.rza.io/verbotene_pforten.png">SuA-FLO</set>
+<manacost>20</manacost>
+<cmc>20</cmc>
+<type>Sonderfertigkeit, Magisch</type>
+<pt>/7</pt>
+<tablerow>2</tablerow>
+<text>Tick: -2X V auf deine Karten verteilen, um eine Karte mit 5X Punkten aus der Ablage zu spielen. </text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Magie der Kraftlinien</name>
+<set picURL="http://sua.rza.io/magie_der_kraftlinien.png">SuA-FLO</set>
+<manacost>15</manacost>
+<cmc>15</cmc>
+<type>Sonderfertigkeit, Magisch</type>
+<pt>/9</pt>
+<tablerow>2</tablerow>
+<text>Alle Zauber haben "Kritische Essenz".
+    Ziehe 4 Punkte von deinen Zielwürfen von "Kritische Essenz" ab.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Memorabia</name>
+<set picURL="http://sua.rza.io/memorabia.png">SuA-FLO</set>
+<manacost>15</manacost>
+<cmc>15</cmc>
+<type>Zauber, Einmalig</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Zerstöre die oberste Karte des gegnerischen Decks. (Zauberprobe)</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Permanent investierte Astralpunkte</name>
+<set picURL="http://sua.rza.io/permanent_investierte_astralpunkte.png">SuA-FLO</set>
+<manacost>-5</manacost>
+<cmc>-5</cmc>
+<type>Einmalig</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Lege diese Karte ab.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Permanent investierte Astralpunkte</name>
+<set picURL="http://sua.rza.io/permanent_investierte_astralpunkte.png">SuA-FLO</set>
+<manacost>-10</manacost>
+<cmc>-10</cmc>
+<type>Einmalig</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Lege diese Karte ab.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Permanent investierte Astralpunkte</name>
+<set picURL="http://sua.rza.io/permanent_investierte_astralpunkte.png">SuA-FLO</set>
+<manacost>-15</manacost>
+<cmc>-15</cmc>
+<type>Einmalig</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Lege diese Karte ab.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Matrixregeneration</name>
+<set picURL="http://sua.rza.io/matrixregeneration.png">SuA-FLO</set>
+<manacost>20</manacost>
+<cmc>20</cmc>
+<type>Einmalig, Sonderfertigkeit, Magisch</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Durchsuche dein Deck nach "Permanent investierte Astralpunkte" und zerstöre diese Karten. Mische danach dein Deck.
+    Spiele eine Zauber-Karte aus der Ablage (Spezialprobe: 23 - ((Punkte des Ziels + Punkte der zerstörten Karten) / 2.5))</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Dschinnenarmee</name>
+<set picURL="http://sua.rza.io/dschinnenarmee.png">SuA-FLO</set>
+<manacost>50</manacost>
+<cmc>50</cmc>
+<type>Ritual, Zauber, Elementar</type>
+<pt>/4</pt>
+<tablerow>2</tablerow>
+<text>Tick: Lege einen Dschinn ins Feld. Dschinnenarmee verliert 1 Leben</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Gardianum</name>
+<set picURL="http://sua.rza.io/gardianum.png">SuA-FLO</set>
+<manacost>10</manacost>
+<cmc>10</cmc>
+<type>Zauber</type>
+<pt>/8</pt>
+<tablerow>2</tablerow>
+<text>Verteidiger
+    Kann nur von Magisch, Elementar, Dämonisch und Untoten angegriffen werden</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Kritische Essenz</name>
+<set picURL="http://sua.rza.io/kritische_essenz.png">SuA-FLO</set>
+<manacost>0</manacost>
+<cmc>0</cmc>
+<type>Einmalig</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Kritische Essenz</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>In den Fußstapfen Rohals des Weisen</name>
+<set picURL="http://sua.rza.io/in_den_fussstapfen_rohals_des_weisen.png">SuA-FLO</set>
+<manacost>15</manacost>
+<cmc>15</cmc>
+<type>Florindel</type>
+<pt>2N/6</pt>
+<tablerow>2</tablerow>
+<text>Spiele 1 Karte, wenn sie angreift</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Universalgenie</name>
+<set picURL="http://sua.rza.io/universalgenie.png">SuA-FLO</set>
+<manacost>20</manacost>
+<cmc>20</cmc>
+<type>Florindel</type>
+<pt>2H/7</pt>
+<tablerow>2</tablerow>
+<text>Alternative Angriffe:
+    Fern 3,
+    Mittel 4,
+    Nah 5,
+    Explosion 1</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Flammeninferno</name>
+<set picURL="http://sua.rza.io/flammeninferno.png">SuA-FLO</set>
+<manacost>35</manacost>
+<cmc>35</cmc>
+<type>Zauber, Elementar, Feuer</type>
+<pt>4N/8</pt>
+<tablerow>2</tablerow>
+<text>Lebensraub, Umkreisschaden 2, Empfindlich gegen Wasser, Resistent gegen Profan
+    Tick: -1 V</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Artefaktwerkstatt</name>
+<set picURL="http://sua.rza.io/artefaktwerkstatt.png">SuA-FLO</set>
+<manacost>25</manacost>
+<cmc>25</cmc>
+<type>Gelände, Magisch</type>
+<pt>/6</pt>
+<tablerow>2</tablerow>
+<text>Einmalig-Karten können verdeckt gespielt werden.
+    Wenn Verdeckte angegriffen werden, aktiviert sich ihr Effekt und sie werden abgelegt.
+    Tick: Aktiviere 1 verdeckte Einmalig-Karte.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Occulus Astralis</name>
+<set picURL="http://sua.rza.io/occulus_astralis.png">SuA-FLO</set>
+<manacost>20</manacost>
+<cmc>20</cmc>
+<type>Zauber, Einmalig</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Hellsicht 3. Wenn mindestens eine Magische Karte dabei ist, zeige diese vor und Sortiere 3 vom selben Deck.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Hochheilige Trägerin des Stabs des Vergessens</name>
+<set picURL="http://sua.rza.io/hochheilige_traegerin_des_stabs_des_vergessens.png">SuA-FLO</set>
+<manacost>30</manacost>
+<cmc>30</cmc>
+<type>Florindel</type>
+<pt>2N/6</pt>
+<tablerow>2</tablerow>
+<text>+2 A gegen Untote
+
+    Tick: Wenn es keinen Gegner in Reichweite Nah gibt, zerstöre die oberste Karte des gegnerischen Decks.</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Dschinnenrüstung</name>
+<set picURL="http://sua.rza.io/dschinnenruestung.png">SuA-FLO</set>
+<manacost>25</manacost>
+<cmc>25</cmc>
+<type>Rüstung, Elementar, Erz</type>
+<pt>/8</pt>
+<tablerow>2</tablerow>
+<text>Verteidiger
+    Rüstung 1</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Fliegender Teppich</name>
+<set picURL="http://sua.rza.io/fliegender_teppich.png">SuA-FLO</set>
+<manacost>20</manacost>
+<cmc>20</cmc>
+<type>Fortbewegungsmittel, Elementar, Luft</type>
+<pt>/6</pt>
+<tablerow>2</tablerow>
+<text>Verteidiger
+    Fliegend</text>
+<cipt>1</cipt>
+</card>
+<card>
+<name>Amulett der Restauration</name>
+<set picURL="http://sua.rza.io/amulett_der_restauration.png">SuA-FLO</set>
+<manacost>50</manacost>
+<cmc>50</cmc>
+<type>Einmalig, Magisch</type>
+<pt>/</pt>
+<tablerow>2</tablerow>
+<text>Wenn dein Feld leer ist, mische deine Ablage ins Deck.</text>
+<cipt>1</cipt>
+</card>
+    </cards>
+</cockatrice_carddatabase>
