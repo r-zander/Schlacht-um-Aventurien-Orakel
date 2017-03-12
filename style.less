@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Metamorphous');
 
-@size: 1;
-@distance: 16px;
+@dpi: 96 * 2;
+@size: (@dpi / 96);
+@distance: (16px * @size);
 
 html {
 	background-image: url(http://forum.rza.io/uploads/default/original/1X/69676520bb9f7dd27535754b21d5009d7cdd7e9a.jpg);
@@ -151,7 +152,7 @@ section.cards {
 	margin-left: -1em;
 	margin-bottom: 2em;
 
-	border: 1px solid black;
+	border: (1px * @size) solid black;
 }
 
 .angriff,

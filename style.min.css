@@ -39,20 +39,20 @@ section.download {
 }
 section.cards {
   overflow: hidden;
-  padding-bottom: 44mm;
+  padding-bottom: 88mm;
 }
 .bbcode-SchlachtUmAventurien {
-  width: 63mm;
-  height: 88mm;
+  width: 126mm;
+  height: 176mm;
   float: left;
-  margin-top: 16px;
-  margin-left: 16px;
-  padding: 16px;
+  margin-top: 32px;
+  margin-left: 32px;
+  padding: 32px;
   background-image: linear-gradient(315deg, #c0a472, #f2d4a0);
   border-radius: 6%;
-  border: 3px solid black;
+  border: 6px solid black;
   text-align: center;
-  font-size: 14px;
+  font-size: 28px;
   color: inherit;
   text-decoration: none;
   position: relative;
@@ -76,7 +76,7 @@ section.cards {
 .name {
   margin-top: 0;
   margin-bottom: 1em;
-  font-size: 16px;
+  font-size: 32px;
 }
 .fraktion {
   margin: 0;
@@ -106,21 +106,21 @@ section.cards {
   width: 2em;
 }
 .punkte {
-  bottom: 16px;
+  bottom: 32px;
   left: 50%;
   line-height: 2em;
   margin-left: -1em;
   margin-bottom: 2em;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 .angriff,
 .verteidigung,
 .angriffstyp {
-  bottom: 16px;
+  bottom: 32px;
   line-height: 1;
 }
 .angriff {
-  left: 16px;
+  left: 32px;
   background-image: url(triangle.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -129,13 +129,13 @@ section.cards {
   padding-top: 0.6em;
 }
 .angriffstyp {
-  left: 16px;
+  left: 32px;
   margin-left: 2.5em;
   line-height: 1.8em;
   padding-top: 0.6em;
 }
 .verteidigung {
-  right: 16px;
+  right: 32px;
   background-image: url(shield.svg);
   background-size: contain;
   background-repeat: no-repeat;

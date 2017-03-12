@@ -2,26 +2,6 @@
 
 var previewSet = [];
 
-String.prototype.capitalize = function () {
-	return this[0].toUpperCase() + this.slice(1);
-};
-
-function getUrlParameter(sParam, lowerCase) {
-	var sPageUrl = decodeURIComponent(window.location.search.substring(1)),
-		sUrlVariables = sPageUrl.split('&'),
-		sParameterName,
-		i;
-
-	for (i = 0; i < sUrlVariables.length; i++) {
-		sParameterName = sUrlVariables[i].split('=');
-
-		if (sParameterName[0] === sParam) {
-			return sParameterName[1] === undefined ? true :
-				lowerCase ? sParameterName[1].toLowerCase() : sParameterName[1];
-		}
-	}
-}
-
 var setMapping = {
 	florindel: "FLO"
 };

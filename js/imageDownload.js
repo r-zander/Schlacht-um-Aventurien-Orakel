@@ -1,20 +1,15 @@
 "use strict";
-String.prototype.allReplace = function(obj) {
-    var retStr = this;
-    for (var x in obj) {
-        retStr = retStr.replace(new RegExp(x, 'g'), obj[x]);
-    }
-    return retStr;
-};
+
+var renderImagesMode = getUrlParameter('renderImages');
 
 function downloadNode(node) {
 	domtoimage.toBlob(node, {
 		style: {
 			margin: 0,
 			boxShadow: "none",
-			// width: "1488px",
-			// height: "2079px"
-		}
+		},
+		// width: 476.16,
+		// height: 665.28
 	})
 		.then(function (blob) {
 			var name = $(node).children('.name').text();
@@ -34,7 +29,7 @@ function downloadNode(node) {
 		});
 }
 
-$(function() {
+$(document).on('setsLoaded', function () {
     $('.bbcode-SchlachtUmAventurien').click(function (e) {
 	    downloadNode(this);
 	    e.preventDefault();
@@ -54,15 +49,21 @@ function downloadAllImages() {
 		domToImageLoaded = true;
 	}
 
-    // if (!domToImageLoaded){
-	 //    $.when(
-		//     $.getScript( 'js/vendor/dom-to-image.min.js' ),
-		//     $.getScript( 'js/vendor/FileSaver.min.js' ),
-		//     $.Deferred(function( deferred ){
-		// 	    $( deferred.resolve );
-		//     })
-	 //    ).done(imageDownload);
-    // } else {
+    if (!domToImageLoaded){
+	    $.when(
+		    $.getScript( 'js/vendor/dom-to-image.min.js' ),
+		    $.getScript( 'js/vendor/FileSaver.min.js' ),
+		    $.Deferred(function( deferred ){
+			    $( deferred.resolve );
+		    })
+	    ).done(imageDownload);
+    } else {
 	    imageDownload();
-    // }
+    }
 }
+
+$(document).on('setsLoaded', function () {
+	if (renderImagesMode){
+		downloadAllImages();
+	}
+});

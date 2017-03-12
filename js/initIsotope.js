@@ -1,6 +1,11 @@
 "use strict";
 
 $(document).on('setsLoaded', function () {
+	// Don't initialize Isotope if we're about to download all images.
+	if (renderImagesMode){
+		return;
+	}
+
 	var gridContainer = $('section.cards');
 
 	function intSortData(item, selector) {
