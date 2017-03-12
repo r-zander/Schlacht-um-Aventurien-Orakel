@@ -6,10 +6,8 @@ function downloadNode(node) {
 	domtoimage.toBlob(node, {
 		style: {
 			margin: 0,
-			boxShadow: "none",
-		},
-		// width: 476.16,
-		// height: 665.28
+			boxShadow: "none"
+		}
 	})
 		.then(function (blob) {
 			var name = $(node).children('.name').text();
@@ -42,9 +40,6 @@ function downloadAllImages() {
 	function imageDownload() {
 		$('.bbcode-SchlachtUmAventurien').each(function () {
 			downloadNode(this);
-
-			// TODO test
-			return false;
 		});
 		domToImageLoaded = true;
 	}

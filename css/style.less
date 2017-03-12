@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Metamorphous');
+/* metamorphous-regular - latin */
+@font-face {
+	font-family: 'Metamorphous';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/metamorphous-v6-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Metamorphous'),
+	url('fonts/metamorphous-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/metamorphous-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('fonts/metamorphous-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('fonts/metamorphous-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('fonts/metamorphous-v6-latin-regular.svg#Metamorphous') format('svg'); /* Legacy iOS */
+}
 
-@dpi: 96 * 2;
+@dpi: 96;
 @size: (@dpi / 96);
 @distance: (16px * @size);
 
 html {
-	background-image: url(http://forum.rza.io/uploads/default/original/1X/69676520bb9f7dd27535754b21d5009d7cdd7e9a.jpg);
+	background-image: url(parchement.jpg);
 }
 
 body {
@@ -22,32 +34,68 @@ a[download] {
 	display: inline-block;
 	line-height: 2em;
 	padding: 0 1em;
-	background-color: #4CAF50;
+	background-color: #4CAF50; // Green 500
 	color: white;
 	text-decoration: none;
 	font-variant: small-caps;
 
 	&:hover {
-		background-color: #388E3C;
+		background-color: #388E3C; // Green 700
 	}
 
 	&:active {
-		background-color: #1B5E20;
+		background-color: #1B5E20; // Green 900
 	}
 }
 
-section.controls,
-section.download {
+section.separated {
 	padding-bottom: 1.5em;
 	margin-bottom: 1.5em;
 	border-bottom: 1px solid black;
+}
+
+#instruction {
+
+	> h2 {
+		font-size: 1rem;
+		-webkit-transition: font-size 0.8s;
+		transition: font-size 0.8s;
+		margin: 0;
+	}
+
+	> .folded {
+		max-height: 0;
+		overflow: hidden;
+
+		/* Set our transitions up. */
+		-webkit-transition: max-height 0.8s;
+		transition: max-height 0.8s;
+	}
+
+	&.unfolded, &:target {
+		> h2 {
+			font-size: 1.5em;
+		}
+
+		> .folded {
+			max-height: (290em / 16);
+		}
+	}
 }
 
 #previewDownload {
 	margin-top: 1.2em;
 
 	a[download] {
-		background-color: #e91e63;
+		background-color: #e91e63; // Pink 500
+
+		&:hover {
+			background-color: #C2185B; // Pink 700
+		}
+
+		&:active {
+			background-color: #880E4F; // Pink 900
+		}
 	}
 }
 

@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+	<sets>
+		<set>
+			<name>SuA-PHE</name>
+			<longname>Phexcaer</longname>
+			<settype>Core</settype>
+			<releasedate>2016-12-28</releasedate>
+		</set>
+		<set>
+			<name>SuA-DGP</name>
+			<longname>Dunkle Gruppe</longname>
+			<settype>Expansion</settype>
+			<releasedate>2016-06-14</releasedate>
+		</set>
+		<set>
+			<name>SuA-RFO</name>
+			<longname>Reichsforst</longname>
+			<settype>Expansion</settype>
+			<releasedate>2016-06-14</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Pfeil des Lichts</name>
+			<set picURL="http://sua.rza.io/pfeil_des_lichts.png">SuA-PHE</set>
+			<manacost>30</manacost>
+			<cmc>30</cmc>
+			<type>Obrigkeit</type>
+			<pt>7F/12</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Veteranensöldner</name>
+			<set picURL="http://sua.rza.io/veteranensoeldner.png">SuA-PHE</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Söldner</type>
+			<pt>7M/7</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Krähenfüße</name>
+			<set picURL="http://sua.rza.io/kraehenfuesse.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Einmalig</type>
+			<pt>6E/</pt>
+			<tablerow>2</tablerow>
+			<text>Schädigt nur Fortbewegungsmittel</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Verhüllter Meister</name>
+			<set picURL="http://sua.rza.io/verhuellter_meister.png">SuA-PHE</set>
+			<manacost>25</manacost>
+			<cmc>25</cmc>
+			<type>Magier</type>
+			<pt>6F/10</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Söldner-Hauptmann</name>
+			<set picURL="http://sua.rza.io/soeldner-hauptmann.png">SuA-PHE</set>
+			<manacost>25</manacost>
+			<cmc>25</cmc>
+			<type>Söldner</type>
+			<pt>6M/10</pt>
+			<tablerow>2</tablerow>
+			<text>Söldner: +1 A</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Rekarafi Lowanger</name>
+			<set picURL="http://sua.rza.io/rekarafi_lowanger.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Abenteurer</type>
+			<pt>5N/7</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Banditenführer</name>
+			<set picURL="http://sua.rza.io/banditenfuehrer.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Banditen</type>
+			<pt>5F/5</pt>
+			<tablerow>2</tablerow>
+			<text>Banditen: +1 A</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Brobera, Tochter der Brodba</name>
+			<set picURL="http://sua.rza.io/brobera_tochter_der_brodba.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Bürger</type>
+			<pt>5N/7</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Bannstaub</name>
+			<set picURL="http://sua.rza.io/bannstaub.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Einmalig</type>
+			<pt>5E/</pt>
+			<tablerow>2</tablerow>
+			<text>Schädigt nur Magische</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Archomagus</name>
+			<set picURL="http://sua.rza.io/archomagus.png">SuA-PHE</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Magier</type>
+			<pt>5M/10</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Elementarer Diener</name>
+			<set picURL="http://sua.rza.io/elementarer_diener.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Magisch</type>
+			<pt>5M/6</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Magischer Wächter</name>
+			<set picURL="http://sua.rza.io/magischer_waechter.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Magisch</type>
+			<pt>5F/2</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Inquisitor</name>
+			<set picURL="http://sua.rza.io/inquisitor.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Obrigkeit</type>
+			<pt>5M/7</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Calenleya Eisbringer</name>
+			<set picURL="http://sua.rza.io/calenleya_eisbringer.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Abenteurer</type>
+			<pt>4F/7</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Wegelagerer</name>
+			<set picURL="http://sua.rza.io/wegelagerer.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Banditen</type>
+			<pt>4N/4</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Der Jäger</name>
+			<set picURL="http://sua.rza.io/der_jaeger.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Bürger</type>
+			<pt>4F/7</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Drôm-Schläger</name>
+			<set picURL="http://sua.rza.io/dr-m-schlaeger.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Bürger</type>
+			<pt>4N/4</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Hauptmann der Wache</name>
+			<set picURL="http://sua.rza.io/hauptmann_der_wache.png">SuA-PHE</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Bürger</type>
+			<pt>4F/9</pt>
+			<tablerow>2</tablerow>
+			<text>Bürger: +1 A</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Lutia Dunkelfarn</name>
+			<set picURL="http://sua.rza.io/lutia_dunkelfarn.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Bürger</type>
+			<pt>4F/5</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Flammenschwert</name>
+			<set picURL="http://sua.rza.io/flammenschwert.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Magisch</type>
+			<pt>4M/3</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Bannstrahler</name>
+			<set picURL="http://sua.rza.io/bannstrahler.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Obrigkeit</type>
+			<pt>4F/7</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Schildwache</name>
+			<set picURL="http://sua.rza.io/schildwache.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Obrigkeit</type>
+			<pt>4M/7</pt>
+			<tablerow>2</tablerow>
+			<text>Rüstung 1</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Orkhäuptling</name>
+			<set picURL="http://sua.rza.io/orkhaeuptling.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Orks</type>
+			<pt>4F/6</pt>
+			<tablerow>2</tablerow>
+			<text>Orks: +1 A</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Orkischer Jäger</name>
+			<set picURL="http://sua.rza.io/orkischer_jaeger.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Orks</type>
+			<pt>4M/4</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Söldner-Schütze</name>
+			<set picURL="http://sua.rza.io/soeldner-schuetze.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Söldner</type>
+			<pt>4M/8</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Nachtdämon</name>
+			<set picURL="http://sua.rza.io/nachtdaemon.png">SuA-PHE</set>
+			<manacost>25</manacost>
+			<cmc>25</cmc>
+			<type>Unheilige</type>
+			<pt>4F/10</pt>
+			<tablerow>2</tablerow>
+			<text>Umkreisschaden 1</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Untoter Troll</name>
+			<set picURL="http://sua.rza.io/untoter_troll.png">SuA-PHE</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Unheilige</type>
+			<pt>4F/9</pt>
+			<tablerow>2</tablerow>
+			<text>Betäubung (10)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Zant</name>
+			<set picURL="http://sua.rza.io/zant.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Unheilige</type>
+			<pt>4N/7</pt>
+			<tablerow>2</tablerow>
+			<text>Betäubung (10)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Raubritter mit Armbrust</name>
+			<set picURL="http://sua.rza.io/raubritter_mit_armbrust.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Banditen</type>
+			<pt>3M/5</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Jarok Rittertod</name>
+			<set picURL="http://sua.rza.io/jarok_rittertod.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Bürger</type>
+			<pt>3N/7</pt>
+			<tablerow>2</tablerow>
+			<text>Bürger: +1 A</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Yolofur Oman</name>
+			<set picURL="http://sua.rza.io/yolofur_oman.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Bürger</type>
+			<pt>3N/5</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Stadtbrand</name>
+			<set picURL="http://sua.rza.io/stadtbrand.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Einmalig</type>
+			<pt>3E/</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Höllenschädel</name>
+			<set picURL="http://sua.rza.io/hoellenschaedel.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Einmalig, Unheilige</type>
+			<pt>3E/</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Riva Kampfmagier</name>
+			<set picURL="http://sua.rza.io/riva_kampfmagier.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Magier</type>
+			<pt>3F/5</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Orkischer Räuber</name>
+			<set picURL="http://sua.rza.io/orkischer_raeuber.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Orks</type>
+			<pt>3M/4</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Feuerteufel</name>
+			<set picURL="http://sua.rza.io/feuerteufel.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Unheilige</type>
+			<pt>3F/4</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Karmoth</name>
+			<set picURL="http://sua.rza.io/karmoth.png">SuA-PHE</set>
+			<manacost>50</manacost>
+			<cmc>50</cmc>
+			<type>Unheilige</type>
+			<pt>3F/14</pt>
+			<tablerow>2</tablerow>
+			<text>Explosionsschaden</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Lebender Leichnam</name>
+			<set picURL="http://sua.rza.io/lebender_leichnam.png">SuA-PHE</set>
+			<manacost>5</manacost>
+			<cmc>5</cmc>
+			<type>Unheilige</type>
+			<pt>3N/2</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Florindel Elodrion</name>
+			<set picURL="http://sua.rza.io/florindel_elodrion.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Abenteurer</type>
+			<pt>2H/8</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Bodiak Drôm</name>
+			<set picURL="http://sua.rza.io/bodiak_dr-m.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Bürger</type>
+			<pt>2N/5</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Dolch</name>
+			<set picURL="http://sua.rza.io/dolch.png">SuA-PHE</set>
+			<manacost>5</manacost>
+			<cmc>5</cmc>
+			<type>Bürger</type>
+			<pt>2F/2</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Ektor Grimob</name>
+			<set picURL="http://sua.rza.io/ektor_grimob.png">SuA-PHE</set>
+			<manacost>5</manacost>
+			<cmc>5</cmc>
+			<type>Bürger</type>
+			<pt>2N/2</pt>
+			<tablerow>2</tablerow>
+			<text>Betäubung (10)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Galius Stark</name>
+			<set picURL="http://sua.rza.io/galius_stark.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Bürger</type>
+			<pt>2N/5</pt>
+			<tablerow>2</tablerow>
+			<text>Bürger: +1 V</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Rodulf Derpel</name>
+			<set picURL="http://sua.rza.io/rodulf_derpel.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Bürger</type>
+			<pt>2N/7</pt>
+			<tablerow>2</tablerow>
+			<text>Heilt alle deine Karten um 1, wenn er angreift</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Steinschlag</name>
+			<set picURL="http://sua.rza.io/steinschlag.png">SuA-PHE</set>
+			<manacost>5</manacost>
+			<cmc>5</cmc>
+			<type>Einmalig</type>
+			<pt>2E/</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Humus-Elementar</name>
+			<set picURL="http://sua.rza.io/humus-elementar.png">SuA-PHE</set>
+			<set picURL="http://sua.rza.io/humus-elementar.png">SuA-RFO</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Magisch</type>
+			<pt>2H/5</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Borbarad</name>
+			<set picURL="http://sua.rza.io/borbarad.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Unheilige</type>
+			<pt>2N/7</pt>
+			<tablerow>2</tablerow>
+			<text>Unheilige: +2 A</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Skelettschütze</name>
+			<set picURL="http://sua.rza.io/skelettschuetze.png">SuA-PHE</set>
+			<manacost>5</manacost>
+			<cmc>5</cmc>
+			<type>Unheilige</type>
+			<pt>2F/2</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Dreimaster</name>
+			<set picURL="http://sua.rza.io/dreimaster.png">SuA-PHE</set>
+			<manacost>30</manacost>
+			<cmc>30</cmc>
+			<type>Fortbewegungsmittel</type>
+			<pt>/12</pt>
+			<tablerow>2</tablerow>
+			<text>Verteidiger</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Kutsche</name>
+			<set picURL="http://sua.rza.io/kutsche.png">SuA-PHE</set>
+			<manacost>25</manacost>
+			<cmc>25</cmc>
+			<type>Fortbewegungsmittel</type>
+			<pt>/10</pt>
+			<tablerow>2</tablerow>
+			<text>Verteidiger</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Pferd</name>
+			<set picURL="http://sua.rza.io/pferd.png">SuA-PHE</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Fortbewegungsmittel</type>
+			<pt>/4</pt>
+			<tablerow>2</tablerow>
+			<text>Verteidiger</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Ruderboot</name>
+			<set picURL="http://sua.rza.io/ruderboot.png">SuA-PHE</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Fortbewegungsmittel</type>
+			<pt>/8</pt>
+			<tablerow>2</tablerow>
+			<text>Verteidiger</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Streitwagen</name>
+			<set picURL="http://sua.rza.io/streitwagen.png">SuA-PHE</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Fortbewegungsmittel</type>
+			<pt>/6</pt>
+			<tablerow>2</tablerow>
+			<text>Verteidiger</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Praios-Schrein</name>
+			<set picURL="http://sua.rza.io/praios-schrein.png">SuA-PHE</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Obrigkeit</type>
+			<pt>/7</pt>
+			<tablerow>2</tablerow>
+			<text>Obrigkeit: +1 A/V</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Verkünderin des Derzal</name>
+			<set picURL="http://sua.rza.io/verkuenderin_des_derzal.png">SuA-DGP</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Nachtalben</type>
+			<pt>2H/6</pt>
+			<tablerow>2</tablerow>
+			<text>Kann alternativ alle für A/2 heilen</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>"Flugzauber"</name>
+			<set picURL="http://sua.rza.io/-flugzauber-.png">SuA-DGP</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Nachtalben</type>
+			<pt>4F/9</pt>
+			<tablerow>2</tablerow>
+			<text>Überraschungsrettung,
+				Fliegend</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Azzitai, die allesverzehrende blutrote Flamme</name>
+			<set picURL="http://sua.rza.io/azzitai_die_allesverzehrende_blutrote_flamme.png">SuA-DGP</set>
+			<manacost>30</manacost>
+			<cmc>30</cmc>
+			<type>Dämonisch</type>
+			<pt>7N/11</pt>
+			<tablerow>2</tablerow>
+			<text>Umkreisschaden 1</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Tyakaar-Drache</name>
+			<set picURL="http://sua.rza.io/tyakaar-drache.png">SuA-DGP</set>
+			<manacost>40</manacost>
+			<cmc>40</cmc>
+			<type>Dämonisch</type>
+			<pt>5M/12</pt>
+			<tablerow>2</tablerow>
+			<text>Hohe Kosten 1,
+				Explosionsschaden,
+				Fliegend</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Gestaltwandel</name>
+			<set picURL="http://sua.rza.io/gestaltwandel.png">SuA-DGP</set>
+			<manacost>30</manacost>
+			<cmc>30</cmc>
+			<type>Einmalig</type>
+			<pt>/</pt>
+			<tablerow>2</tablerow>
+			<text>Bringe eine gegnerische Karte in dein Feld</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Strategische Bösartigkeit</name>
+			<set picURL="http://sua.rza.io/strategische_boesartigkeit.png">SuA-DGP</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Einmalig</type>
+			<pt>XE/</pt>
+			<tablerow>2</tablerow>
+			<text>X Schaden für alle Gegner (X = Anzahl gegnerischer Karten)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Bezahlter Meuchelmörder</name>
+			<set picURL="http://sua.rza.io/bezahlter_meuchelmoerder.png">SuA-DGP</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Mensch</type>
+			<pt>4M/2</pt>
+			<tablerow>2</tablerow>
+			<text>Hinterhalt</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Übergetretener</name>
+			<set picURL="http://sua.rza.io/uebergetretener.png">SuA-DGP</set>
+			<manacost>5</manacost>
+			<cmc>5</cmc>
+			<type>Mensch</type>
+			<pt>3N/2</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Zwergischer Scharfschütze</name>
+			<set picURL="http://sua.rza.io/zwergischer_scharfschuetze.png">SuA-DGP</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Zwerge</type>
+			<pt>4F/6</pt>
+			<tablerow>2</tablerow>
+			<text>Hinterhalt</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Aggari Armbrust</name>
+			<set picURL="http://sua.rza.io/aggari_armbrust.png">SuA-DGP</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Dämonisch</type>
+			<pt>5F/2</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Improvisierte Schmiede</name>
+			<set picURL="http://sua.rza.io/improvisierte_schmiede.png">SuA-DGP</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Zwerge</type>
+			<pt>/5</pt>
+			<tablerow>2</tablerow>
+			<text>Alle: +1 A/V</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Zwergischer Handwerkslehrling</name>
+			<set picURL="http://sua.rza.io/zwergischer_handwerkslehrling.png">SuA-DGP</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Zwerge</type>
+			<pt>2N/6</pt>
+			<tablerow>2</tablerow>
+			<text>Kann alternativ A/2 heilen</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Panthermensch</name>
+			<set picURL="http://sua.rza.io/panthermensch.png">SuA-DGP</set>
+			<manacost>30</manacost>
+			<cmc>30</cmc>
+			<type>Dämonisch, Magisch</type>
+			<pt>3M/14</pt>
+			<tablerow>2</tablerow>
+			<text>Magische Resistenz,
+				Regeneration 1</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Iryanrüstung</name>
+			<set picURL="http://sua.rza.io/iryanruestung.png">SuA-DGP</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Rüstung</type>
+			<pt>/4</pt>
+			<tablerow>2</tablerow>
+			<text>Verteidiger,
+				Feuerresistenz</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Beidhändiger Kampf</name>
+			<set picURL="http://sua.rza.io/beidhaendiger_kampf.png">SuA-DGP</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type></type>
+			<pt>??/2</pt>
+			<tablerow>2</tablerow>
+			<text>A entspricht der Karte links</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Soldat des Ordens</name>
+			<set picURL="http://sua.rza.io/soldat_des_ordens.png">SuA-DGP</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type></type>
+			<pt>5N/7</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Vierarmige Kampfmaschine</name>
+			<set picURL="http://sua.rza.io/vierarmige_kampfmaschine.png">SuA-DGP</set>
+			<manacost>25</manacost>
+			<cmc>25</cmc>
+			<type>Mensch</type>
+			<pt>2M/9</pt>
+			<tablerow>2</tablerow>
+			<text>2 Angriffe pro Runde,
+				Zäher Hund</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Axt des Blutgottes</name>
+			<set picURL="http://sua.rza.io/axt_des_blutgottes.png">SuA-DGP</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Dämonisch</type>
+			<pt>6N/3</pt>
+			<tablerow>2</tablerow>
+			<text>Kann nur angreifen, wenn mind. 1 weitere Karte liegt. +2 A wenn diese Karte "Vierarmige Kampfmaschine" ist</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Bewaffnete Jünglinge</name>
+			<set picURL="http://sua.rza.io/bewaffnete_juenglinge.png">SuA-DGP</set>
+			<manacost>5</manacost>
+			<cmc>5</cmc>
+			<type>Mensch</type>
+			<pt>2M/2</pt>
+			<tablerow>2</tablerow>
+			<text>Nehmen höchstens 1 Schaden pro Angriff</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Thorwaler Rundschild</name>
+			<set picURL="http://sua.rza.io/thorwaler_rundschild.png">SuA-DGP</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Rüstung</type>
+			<pt>/8</pt>
+			<tablerow>2</tablerow>
+			<text>Verteidiger</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Zusammengenähter Chirurg</name>
+			<set picURL="http://sua.rza.io/zusammengenaehter_chirurg.png">SuA-DGP</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Mensch</type>
+			<pt>3H/6</pt>
+			<tablerow>2</tablerow>
+			<text>Kann sich selbst heilen </text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Helfende Hand im Glas</name>
+			<set picURL="http://sua.rza.io/helfende_hand_im_glas.png">SuA-DGP</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Zombie</type>
+			<pt>/4</pt>
+			<tablerow>2</tablerow>
+			<text>Tick: +1 A für einen Heiler für diese Runde ODER 1 Karte ins Feld legen (10)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Anatomisch komisch </name>
+			<set picURL="http://sua.rza.io/anatomisch_komisch_.png">SuA-DGP</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Verstärkung</type>
+			<pt>+3/+3</pt>
+			<tablerow>2</tablerow>
+			<text>Verleiht einer organischen Einheit Bonus auf A/V</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Das Monster</name>
+			<set picURL="http://sua.rza.io/das_monster.png">SuA-DGP</set>
+			<manacost>30</manacost>
+			<cmc>30</cmc>
+			<type>Fleischgolem</type>
+			<pt>4N/9</pt>
+			<tablerow>2</tablerow>
+			<text>Umkreisschaden 2,
+				Langsam</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Raxan Schattenschwinge</name>
+			<set picURL="http://sua.rza.io/raxan_schattenschwinge.png">SuA-RFO</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Hexe</type>
+			<pt>2N/5</pt>
+			<tablerow>2</tablerow>
+			<text>Hexen: +1 A/V;
+				Hellsicht 3</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Krähenruf</name>
+			<set picURL="http://sua.rza.io/kraehenruf.png">SuA-RFO</set>
+			<manacost>25</manacost>
+			<cmc>25</cmc>
+			<type>Einmalig</type>
+			<pt>3N/2</pt>
+			<tablerow>2</tablerow>
+			<text>Füllt alle freien Felder mit Krähen (Fliegend)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Krähe</name>
+			<set picURL="http://sua.rza.io/kraehe.png">SuA-RFO</set>
+			<manacost></manacost>
+			<cmc></cmc>
+			<type>Tier</type>
+			<pt>2N/2</pt>
+			<tablerow>2</tablerow>
+			<text>Fliegend</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Horax, der Rabe</name>
+			<set picURL="http://sua.rza.io/horax_der_rabe.png">SuA-RFO</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Tier, Hexe</type>
+			<pt>3N/3</pt>
+			<tablerow>2</tablerow>
+			<text>Fliegend,
+				+1 A/V für Raxan </text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Rahjagunde von Falkenwind</name>
+			<set picURL="http://sua.rza.io/rahjagunde_von_falkenwind.png">SuA-RFO</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Hexe</type>
+			<pt>5M/5</pt>
+			<tablerow>2</tablerow>
+			<text>Hinterhalt</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Kater Nebuk</name>
+			<set picURL="http://sua.rza.io/kater_nebuk.png">SuA-RFO</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Tier, Hexe</type>
+			<pt>4N/3</pt>
+			<tablerow>2</tablerow>
+			<text>Hinterhalt,
+				+1 A/V für Rahjagunde</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Waldspinne</name>
+			<set picURL="http://sua.rza.io/waldspinne.png">SuA-RFO</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Spinne</type>
+			<pt>4N/4</pt>
+			<tablerow>2</tablerow>
+			<text>Hinterhalt,
+				Betäubung (5)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Große Waldspinne</name>
+			<set picURL="http://sua.rza.io/grosse_waldspinne.png">SuA-RFO</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Spinne</type>
+			<pt>6N/8</pt>
+			<tablerow>2</tablerow>
+			<text>Hinterhalt,
+				Betäubung (8)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Waldspinnen-Königin</name>
+			<set picURL="http://sua.rza.io/waldspinnen-koenigin.png">SuA-RFO</set>
+			<manacost>25</manacost>
+			<cmc>25</cmc>
+			<type>Spinne</type>
+			<pt>/12</pt>
+			<tablerow>2</tablerow>
+			<text>Spinnen: +1 V
+				Tick: Erzeugt 1 Spinnling</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Spinnling</name>
+			<set picURL="http://sua.rza.io/spinnling.png">SuA-RFO</set>
+			<manacost></manacost>
+			<cmc></cmc>
+			<type>Spinne</type>
+			<pt>2N/2</pt>
+			<tablerow>2</tablerow>
+			<text>Betäubung (2)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Vernetzter Wald</name>
+			<set picURL="http://sua.rza.io/vernetzter_wald.png">SuA-RFO</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Baum, Fortbewegungsmittel</type>
+			<pt>/7</pt>
+			<tablerow>2</tablerow>
+			<text>Spinnen: +1 A, Reichweite Mittel</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Elfischer Späher</name>
+			<set picURL="http://sua.rza.io/elfischer_spaeher.png">SuA-RFO</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Waldelf</type>
+			<pt>4F/3</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Ikarina-Schmetterling</name>
+			<set picURL="http://sua.rza.io/ikarina-schmetterling.png">SuA-RFO</set>
+			<manacost>5</manacost>
+			<cmc>5</cmc>
+			<type>Tier</type>
+			<pt>2N/2</pt>
+			<tablerow>2</tablerow>
+			<text>Verteidiger,
+				Fliegend,
+				Resistenz gegen Magie,
+				Ausweichen (6) gegen Mittel und Fern</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Einhorn</name>
+			<set picURL="http://sua.rza.io/einhorn.png">SuA-RFO</set>
+			<manacost>30</manacost>
+			<cmc>30</cmc>
+			<type>Tier, Feen</type>
+			<pt>7N/12</pt>
+			<tablerow>2</tablerow>
+			<text>Regeneration 1,
+				Resistenz gegen Magie</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Verborgenes Moor</name>
+			<set picURL="http://sua.rza.io/verborgenes_moor.png">SuA-RFO</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Gelände</type>
+			<pt>/5</pt>
+			<tablerow>2</tablerow>
+			<text>Nicht-Waldbewohner: -1 A</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Salander Lilacina</name>
+			<set picURL="http://sua.rza.io/salander_lilacina.png">SuA-RFO</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Einmalig</type>
+			<pt>/</pt>
+			<tablerow>2</tablerow>
+			<text>Verwandelt eine Karte in einen lila Rosenstrauch (0 A)</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Lebender Baum</name>
+			<set picURL="http://sua.rza.io/lebender_baum.png">SuA-RFO</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Baum</type>
+			<pt>2N/6</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Blutulme</name>
+			<set picURL="http://sua.rza.io/blutulme.png">SuA-RFO</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Baum</type>
+			<pt>/7</pt>
+			<tablerow>2</tablerow>
+			<text>Waldbewohner: +1 A/V</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Waldschrat</name>
+			<set picURL="http://sua.rza.io/waldschrat.png">SuA-RFO</set>
+			<manacost>25</manacost>
+			<cmc>25</cmc>
+			<type>Schrat</type>
+			<pt>4M/10</pt>
+			<tablerow>2</tablerow>
+			<text>Hinterhalt,
+				Betäubung (6),
+				Rüstung 1</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Wurzelbold-Sippe</name>
+			<set picURL="http://sua.rza.io/wurzelbold-sippe.png">SuA-RFO</set>
+			<manacost>5</manacost>
+			<cmc>5</cmc>
+			<type>Feen</type>
+			<pt>2N/3</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Haindruide</name>
+			<set picURL="http://sua.rza.io/haindruide.png">SuA-RFO</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Zauberer</type>
+			<pt>4F/6</pt>
+			<tablerow>2</tablerow>
+			<text>Kann für 2 heilen</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Bären-Biestinger</name>
+			<set picURL="http://sua.rza.io/baeren-biestinger.png">SuA-RFO</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Feen</type>
+			<pt>5M/9</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Verschwindibus</name>
+			<set picURL="http://sua.rza.io/verschwindibus.png">SuA-RFO</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Einmalig</type>
+			<pt>/</pt>
+			<tablerow>2</tablerow>
+			<text>Gegnerische Karte wegmischen</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Feenwirbel</name>
+			<set picURL="http://sua.rza.io/feenwirbel.png">SuA-RFO</set>
+			<manacost>10</manacost>
+			<cmc>10</cmc>
+			<type>Einmalig</type>
+			<pt>/</pt>
+			<tablerow>2</tablerow>
+			<text>Alle eigenen Karten umpositionieren</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Feentor</name>
+			<set picURL="http://sua.rza.io/feentor.png">SuA-RFO</set>
+			<manacost>25</manacost>
+			<cmc>25</cmc>
+			<type>Feen</type>
+			<pt>/10</pt>
+			<tablerow>2</tablerow>
+			<text>Feen: +1 A, Regeneration 1</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Dryade</name>
+			<set picURL="http://sua.rza.io/dryade.png">SuA-RFO</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Feen</type>
+			<pt>4N/8</pt>
+			<tablerow>2</tablerow>
+			<text>Verführung gegen Männer (10),
+				Hinterhalt</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Herbast der Hüter</name>
+			<set picURL="http://sua.rza.io/herbast_der_hueter.png">SuA-RFO</set>
+			<manacost>15</manacost>
+			<cmc>15</cmc>
+			<type>Zauberer</type>
+			<pt>5F/6</pt>
+			<tablerow>2</tablerow>
+			<text>Elementar-Schaden</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Humusdrache</name>
+			<set picURL="http://sua.rza.io/humusdrache.png">SuA-RFO</set>
+			<manacost>50</manacost>
+			<cmc>50</cmc>
+			<type>Elementar</type>
+			<pt>4M/15</pt>
+			<tablerow>2</tablerow>
+			<text>Betäubung (16),
+				Regeneration 2,
+				Fliegend</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Blutulmen-König</name>
+			<set picURL="http://sua.rza.io/blutulmen-koenig.png">SuA-RFO</set>
+			<manacost>30</manacost>
+			<cmc>30</cmc>
+			<type>Baum</type>
+			<pt>4N/14</pt>
+			<tablerow>2</tablerow>
+			<text>Waldbewohner: +1 A/V
+				Nicht-Waldbewohner: -1 A/V</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Wand aus Dornen</name>
+			<set picURL="http://sua.rza.io/wand_aus_dornen.png">SuA-RFO</set>
+			<manacost>20</manacost>
+			<cmc>20</cmc>
+			<type>Mauer, Elementar</type>
+			<pt>/7</pt>
+			<tablerow>2</tablerow>
+			<text>Verteidiger,
+				2 Schaden gegen Angreifer</text>
+			<cipt>1</cipt>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

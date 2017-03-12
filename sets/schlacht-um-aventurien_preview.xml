@@ -208,8 +208,8 @@
 <cipt>1</cipt>
 </card>
 <card>
-<name>Permanent investierte Astralpunkte</name>
-<set picURL="http://sua.rza.io/permanent_investierte_astralpunkte.png">SuA-FLO</set>
+<name>Permanent investierte Astralpunkte I</name>
+<set picURL="http://sua.rza.io/permanent_investierte_astralpunkte_i.png">SuA-FLO</set>
 <manacost>-5</manacost>
 <cmc>-5</cmc>
 <type>Einmalig</type>
@@ -219,8 +219,8 @@
 <cipt>1</cipt>
 </card>
 <card>
-<name>Permanent investierte Astralpunkte</name>
-<set picURL="http://sua.rza.io/permanent_investierte_astralpunkte.png">SuA-FLO</set>
+<name>Permanent investierte Astralpunkte II</name>
+<set picURL="http://sua.rza.io/permanent_investierte_astralpunkte_ii.png">SuA-FLO</set>
 <manacost>-10</manacost>
 <cmc>-10</cmc>
 <type>Einmalig</type>
@@ -230,8 +230,8 @@
 <cipt>1</cipt>
 </card>
 <card>
-<name>Permanent investierte Astralpunkte</name>
-<set picURL="http://sua.rza.io/permanent_investierte_astralpunkte.png">SuA-FLO</set>
+<name>Permanent investierte Astralpunkte III</name>
+<set picURL="http://sua.rza.io/permanent_investierte_astralpunkte_iii.png">SuA-FLO</set>
 <manacost>-15</manacost>
 <cmc>-15</cmc>
 <type>Einmalig</type>

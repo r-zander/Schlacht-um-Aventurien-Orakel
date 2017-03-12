@@ -3,19 +3,14 @@ $(function () {
     /*
      * Write 'Last Updated'
      */
-    $('#lastUpdated').text(
-        new Date(
-            fetchHeader(
-                '01.schlacht-um-aventurien.xml',
-                'Last-Modified'
-            )).toLocaleDateString('de-DE')
-    );
-
-    $('#previewLastUpdated').text(
-        new Date(
-            fetchHeader(
-                '02.schlacht-um-aventurien_preview.xml',
-                'Last-Modified'
-            )).toLocaleDateString('de-DE')
-    );
+    $('.updated').each(function (index, element) {
+	    var $element = $(element);
+	    $element.text(
+		    new Date(
+			    fetchHeader(
+				    $element.attr('data-file'),
+				    'Last-Modified'
+			    )).toLocaleDateString('de-DE')
+	    );
+    });
 });

@@ -79,14 +79,14 @@ $(document).on('setsLoaded', function () {
 		filter: function () {
 			var $this = $(this);
 
-			if (filter.set !== 'all') {
+			if (filter.set !== 'all' && filter.set.indexOf('all') === -1) {
 				if (typeof filter.set === 'string') {
 					if (!$this.hasClass('set-' + filter.set)) {
 						return false;
 					}
 				} else {
 					if (!filter.set.some(function (setName) {
-							return setName === 'all' || $this.hasClass('set-' + setName);
+							return $this.hasClass('set-' + setName);
 						})) {
 						return false;
 					}

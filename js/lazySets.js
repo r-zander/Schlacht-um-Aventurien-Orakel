@@ -39,6 +39,8 @@ $(function () {
 				}
 			}
 		});
+
+		$('#previewDownload').show();
 	} else {
 		$(document).trigger('setsLoaded');
 	}

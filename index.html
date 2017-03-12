@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Schlacht um Aventurien - Alle Karten</title>
-	<link rel="stylesheet" type="text/css" href="style.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 	<script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/vendor/isotope.pkgd.min.js"></script>
 	<!--<script type="text/javascript" src="js/vendor/dom-to-image.min.js"></script>-->
@@ -17,18 +17,51 @@
 	<script type="text/javascript" src="js/initIsotope.js"></script>
 </head>
 <body>
+
 <h1>Schlacht um Aventurien - Alle Karten</h1>
-<section class="download">
+
+<section class="download separated">
 	<div>
-		<a href="01.schlacht-um-aventurien.xml" download>Download</a>
-		aller Sets für Cockatrice. Zuletzt aktualisiert: <span id="lastUpdated">loading ...</span>
+		<a href="sets/schlacht-um-aventurien.xml" download>Download</a>
+		aller Sets für <a href="https://cockatrice.github.io/">Cockatrice</a>. Zuletzt aktualisiert: <span class="updated" data-file="sets/schlacht-um-aventurien.xml">loading ...</span>
 	</div>
+
 	<div id="previewDownload" style="display: none">
-		<a href="02.schlacht-um-aventurien_preview.xml" download>Download</a>
-		der Preview-Sets für Cockatrice. Zuletzt aktualisiert: <span id="previewLastUpdated">loading ...</span>
+		<a href="sets/schlacht-um-aventurien_preview.xml" download>Download</a>
+		der Preview-Sets für <a href="https://cockatrice.github.io/">Cockatrice</a>. Zuletzt aktualisiert: <span class="updated" data-file="sets/schlacht-um-aventurien_preview.xml">loading ...</span>
 	</div>
 </section>
-<section class="controls sorting">
+
+<section id="instruction" class="separated">
+	<h2><a id="unfoldLink" href="#instruction">Anleitung zum Spielen in Cockatrice</a></h2>
+
+	<div class="folded">
+		<ol>
+			<li><a href="https://cockatrice.github.io/">Cockatrice</a> herunterladen und installieren</li>
+			<li>"erster Start"-Dialog ignorieren</li>
+			<li>Im Menü 'Kartendatenbank' &gt; 'Benutzerdefinierte Karten/Sets hinzufügen'</li>
+			<li>heruntergeladene <code>schlacht-um-aventurien.xml</code> auswählen</li>
+		</ol>
+
+		<strong>Optional:</strong> Standardmäßig angezeigte Magic-Editionen ausblenden
+
+		<ol>
+			<li>Im Menü 'Kartendatenbank' &gt; 'Editionen bearbeiten...'</li>
+			<li>Klick 'Alle Editionen deaktivieren'</li>
+			<li>Sortieren nach Spalte 'Editionscode'</li>
+			<li>Alle Sets, deren Editionscode mit 'SuA-' beginnt, aktivieren</li>
+		</ol>
+	</div>
+</section>
+
+<script type="text/javascript">
+	$('#unfoldLink').click(function (e) {
+		$('#instruction').toggleClass('unfolded');
+		e.preventDefault();
+	});
+</script>
+
+<section class="controls sorting separated">
 	<label for="sortBy">Sortieren:</label>
 	<select id="sortBy"></select>
 
@@ -37,7 +70,8 @@
 	<input type="radio" id="sortAscending_false" name="sortAscending" value="false">
 	<label for="sortAscending_false">Absteigend</label>
 </section>
-<section class="controls filters">
+
+<section class="controls filters separated">
 	<p><strong id="cardCount"></strong> Karten gefunden.</p>
 
 	<div class="filterRow">
@@ -45,7 +79,7 @@
 		<select id="filter_set" multiple="multiple">
 			<option value="all" selected="selected">Alle</option>
 			<option value="PHE">Phexcaer (PHE)</option>
-			<option value="DGP">Dunkle Gruppe (DPG)</option>
+			<option value="DGP">Dunkle Gruppe (DGP)</option>
 			<option value="RFO">Reichsforst (RFO)</option>
 		</select>
 	</div>
@@ -54,10 +88,6 @@
 		<input type="text" placeholder="Name (enthält)" id="filter_name"/>
 	</div>
 
-	<!-- TODO: eigentlich Dropdown? -->
-	<!--<div class="filterRow">-->
-		<!--<input type="text" placeholder="Fraktion (enthält)" id="filter_fraktion"/>-->
-	<!--</div>-->
 	<label for="filter_fraktion">Fraktion:</label>
 	<select id="filter_fraktion">
 		<option value="all" selected="selected">Alle</option>
