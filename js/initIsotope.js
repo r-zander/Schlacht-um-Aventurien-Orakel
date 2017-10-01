@@ -2,7 +2,7 @@
 
 $(document).on('setsLoaded', function () {
 	// Don't initialize Isotope if we're about to download all images.
-	if (renderImagesMode){
+	if (renderImagesMode) {
 		return;
 	}
 
@@ -115,29 +115,53 @@ $(document).on('setsLoaded', function () {
 		}
 	});
 
-	var $sortBySelect = $('#sortBy');
+	var sortLinks = $('.sortLinks');
+	var $sortLinkTemplate = $('.sortLink').remove();
+	var sortAscending = {};
+	var sortLinkElements = {};
 	for (var sortKey in sortData) {
-		$sortBySelect.append('<option value="' + sortKey + '">' + sortKey.capitalize() + '</option>');
-	}
+		sortAscending[sortKey] = false;
+		sortLinkElements[sortKey] = {};
 
-	$sortBySelect.change(function () {
-		gridContainer.isotope({
-			sortBy: [this.value, 'name']
-		});
-	});
+		var sortLink = $sortLinkTemplate.clone();
+		sortLinks.append(sortLink);
 
-	$('input[name=sortAscending]').change(function () {
-		var sortAscending = {};
+		function applySorting(sortKey, ascending) {
+			sortAscending[sortKey] = ascending;
 
-		sortAscending[$sortBySelect.val()] = (this.value == 'true');
-		if ($sortBySelect.val() !== 'name') {
-			sortAscending.name = true;
+			gridContainer.isotope({
+				sortBy: [sortKey, 'name'],
+				sortAscending: sortAscending
+			});
+
+			$('.sortLink > .active').removeClass('active');
+			sortLinkElements[sortKey].sortBy.addClass('active');
+			if (ascending) {
+				sortLinkElements[sortKey].sortAscending.addClass('active');
+			} else {
+				sortLinkElements[sortKey].sortDescending.addClass('active');
+			}
 		}
 
-		gridContainer.isotope({
-			sortAscending: sortAscending
-		});
-	});
+		sortLinkElements[sortKey].sortBy = sortLink.children('.sortBy')
+			.text(sortKey.capitalize())
+			.click(function (sortKey) {
+				applySorting(sortKey, !sortAscending[sortKey]);
+			}.bind(this, sortKey));
+		sortLinkElements[sortKey].sortAscending = sortLink.children('.sortAscending')
+			.click(function (sortKey) {
+				applySorting(sortKey, true);
+			}.bind(this, sortKey));
+		sortLinkElements[sortKey].sortDescending = sortLink.children('.sortDescending')
+			.click(function (sortKey) {
+				applySorting(sortKey, false);
+			}.bind(this, sortKey));
+
+		if (sortKey === 'name') {
+			sortAscending[sortKey] = true;
+			sortLink.children('.sortBy, .sortAscending').addClass('active');
+		}
+	}
 
 	var $cardCount = $('#cardCount');
 	$cardCount.text(gridContainer.isotope('getFilteredItemElements').length);

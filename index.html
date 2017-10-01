@@ -23,12 +23,14 @@
 <section class="download separated">
 	<div>
 		<a href="sets/schlacht-um-aventurien.xml" download>Download</a>
-		aller Sets für <a href="https://cockatrice.github.io/">Cockatrice</a>. Zuletzt aktualisiert: <span class="updated" data-file="sets/schlacht-um-aventurien.xml">loading ...</span>
+		aller Sets für <a href="https://cockatrice.github.io/">Cockatrice</a>.
+		Zuletzt aktualisiert: <span class="updated" data-file="sets/schlacht-um-aventurien.xml">loading ...</span>
 	</div>
 
 	<div id="previewDownload" style="display: none">
 		<a href="sets/schlacht-um-aventurien_preview.xml" download>Download</a>
-		der Preview-Sets für <a href="https://cockatrice.github.io/">Cockatrice</a>. Zuletzt aktualisiert: <span class="updated" data-file="sets/schlacht-um-aventurien_preview.xml">loading ...</span>
+		der Preview-Sets für <a href="https://cockatrice.github.io/">Cockatrice</a>.
+		Zuletzt aktualisiert: <span class="updated" data-file="sets/schlacht-um-aventurien_preview.xml">loading ...</span>
 	</div>
 </section>
 
@@ -61,19 +63,13 @@
 	});
 </script>
 
-<section class="controls sorting separated">
-	<label for="sortBy">Sortieren:</label>
-	<select id="sortBy"></select>
-
-	<input type="radio" id="sortAscending_true" name="sortAscending" value="true" checked="checked">
-	<label for="sortAscending_true">Aufsteigend</label>
-	<input type="radio" id="sortAscending_false" name="sortAscending" value="false">
-	<label for="sortAscending_false">Absteigend</label>
-</section>
-
 <section class="controls filters separated">
-	<p><strong id="cardCount"></strong> Karten gefunden.</p>
-
+	<h3>Filtern</h3>
+	<!--
+		Punkte, Angriff, Verteidigung: (operator)(drop-down)
+		Angriffstyp: (drop-down)
+		Effekt: (enthält)
+		Effekt-Schlüsselwort: (drop-down). Alternativ: Autovervollständigung im Effekt Textfield (in-line und mit Leerzeichen danach) -->
 	<div class="filterRow">
 		<label for="filter_set">Set:</label>
 		<select id="filter_set" multiple="multiple">
@@ -85,22 +81,35 @@
 	</div>
 
 	<div class="filterRow">
+		<label for="filter_name">Name:</label>
 		<input type="text" placeholder="Name (enthält)" id="filter_name"/>
 	</div>
 
-	<label for="filter_fraktion">Fraktion:</label>
-	<select id="filter_fraktion">
-		<option value="all" selected="selected">Alle</option>
-	</select>
+	<div class="filterRow">
+		<label for="filter_fraktion">Fraktion:</label>
+		<select id="filter_fraktion">
+			<option value="all" selected="selected">Alle</option>
+		</select>
+	</div>
 
 	<div class="filterRow">
+		<label for="filter_effekt">Effekt:</label>
 		<input type="text" placeholder="Effekt (enthält)" id="filter_effekt"/>
 	</div>
-	<!--
-		Punkte, Angriff, Verteidigung: (operator)(drop-down)
-		Angriffstyp: (drop-down)
-		Effekt: (enthält)
-		Effekt-Schlüsselwort: (drop-down). Alternativ: Autovervollständigung im Effekt Textfield (in-line und mit Leerzeichen danach) -->
+
+	<p class="filterResult"><strong id="cardCount"></strong> Karten gefunden.</p>
+</section>
+
+<section class="controls sorting separated">
+	<h3>Sortieren</h3>
+
+	<div class="sortLinks">
+		<div class="sortLink">
+			<a href="#" class="sortBy"></a>
+			<a href="#" class="sortAscending">▲</a>
+			<a href="#" class="sortDescending">▼</a>
+		</div>
+	</div>
 </section>
 
 <section class="cards isotope">
@@ -824,7 +833,7 @@
 		<p class="fraktion">Nachtalben</p>
 
 		<p class="effekt">
-			Überraschungsrettung,<br />Fliegend
+			Überraschungsrettung,<br/>Fliegend
 		</p>
 
 		<div class="punkte">20</div>
@@ -832,7 +841,8 @@
 		<div class="angriffstyp">Fern</div>
 		<div class="verteidigung">9</div>
 	</a>
-	<a href="http://sua.rza.io/azzitai_die_allesverzehrende_blutrote_flamme.png" class="bbcode-SchlachtUmAventurien set-DGP">
+	<a href="http://sua.rza.io/azzitai_die_allesverzehrende_blutrote_flamme.png"
+	   class="bbcode-SchlachtUmAventurien set-DGP">
 		<h3 class="name">Azzitai, die allesverzehrende blutrote Flamme</h3>
 		<p class="fraktion">Dämonisch</p>
 
@@ -850,7 +860,7 @@
 		<p class="fraktion">Dämonisch</p>
 
 		<p class="effekt">
-			Hohe Kosten 1,<br />Explosionsschaden,<br />Fliegend
+			Hohe Kosten 1,<br/>Explosionsschaden,<br/>Fliegend
 		</p>
 
 		<div class="punkte">40</div>
@@ -967,7 +977,7 @@
 		<p class="fraktion">Dämonisch, Magisch</p>
 
 		<p class="effekt">
-			Magische Resistenz,<br />Regeneration 1
+			Magische Resistenz,<br/>Regeneration 1
 		</p>
 
 		<div class="punkte">30</div>
@@ -980,7 +990,7 @@
 		<p class="fraktion">Rüstung</p>
 
 		<p class="effekt">
-			Verteidiger,<br />Feuerresistenz
+			Verteidiger,<br/>Feuerresistenz
 		</p>
 
 		<div class="punkte">10</div>
@@ -1019,7 +1029,7 @@
 		<p class="fraktion">Mensch</p>
 
 		<p class="effekt">
-			2 Angriffe pro Runde,<br />Zäher Hund
+			2 Angriffe pro Runde,<br/>Zäher Hund
 		</p>
 
 		<div class="punkte">25</div>
@@ -1110,7 +1120,7 @@
 		<p class="fraktion">Fleischgolem</p>
 
 		<p class="effekt">
-			Umkreisschaden 2,<br />Langsam
+			Umkreisschaden 2,<br/>Langsam
 		</p>
 
 		<div class="punkte">30</div>
@@ -1123,7 +1133,7 @@
 		<p class="fraktion">Hexe</p>
 
 		<p class="effekt">
-			Hexen: +1 A/V;<br />Hellsicht 3
+			Hexen: +1 A/V;<br/>Hellsicht 3
 		</p>
 
 		<div class="punkte">15</div>
@@ -1162,7 +1172,7 @@
 		<p class="fraktion">Tier, Hexe</p>
 
 		<p class="effekt">
-			Fliegend,<br />+1 A/V für Raxan
+			Fliegend,<br/>+1 A/V für Raxan
 		</p>
 
 		<div class="punkte">10</div>
@@ -1188,7 +1198,7 @@
 		<p class="fraktion">Tier, Hexe</p>
 
 		<p class="effekt">
-			Hinterhalt,<br />+1 A/V für Rahjagunde
+			Hinterhalt,<br/>+1 A/V für Rahjagunde
 		</p>
 
 		<div class="punkte">10</div>
@@ -1201,7 +1211,7 @@
 		<p class="fraktion">Spinne</p>
 
 		<p class="effekt">
-			Hinterhalt,<br />Betäubung (5)
+			Hinterhalt,<br/>Betäubung (5)
 		</p>
 
 		<div class="punkte">10</div>
@@ -1214,7 +1224,7 @@
 		<p class="fraktion">Spinne</p>
 
 		<p class="effekt">
-			Hinterhalt,<br />Betäubung (8)
+			Hinterhalt,<br/>Betäubung (8)
 		</p>
 
 		<div class="punkte">20</div>
@@ -1227,7 +1237,7 @@
 		<p class="fraktion">Spinne</p>
 
 		<p class="effekt">
-			Spinnen: +1 V<br />Tick: Erzeugt 1 Spinnling
+			Spinnen: +1 V<br/>Tick: Erzeugt 1 Spinnling
 		</p>
 
 		<div class="punkte">25</div>
@@ -1279,7 +1289,7 @@
 		<p class="fraktion">Tier</p>
 
 		<p class="effekt">
-			Verteidiger,<br />Fliegend,<br />Resistenz gegen Magie,<br />Ausweichen (6) gegen Mittel und Fern
+			Verteidiger,<br/>Fliegend,<br/>Resistenz gegen Magie,<br/>Ausweichen (6) gegen Mittel und Fern
 		</p>
 
 		<div class="punkte">5</div>
@@ -1292,7 +1302,7 @@
 		<p class="fraktion">Tier, Feen</p>
 
 		<p class="effekt">
-			Regeneration 1,<br />Resistenz gegen Magie
+			Regeneration 1,<br/>Resistenz gegen Magie
 		</p>
 
 		<div class="punkte">30</div>
@@ -1357,7 +1367,7 @@
 		<p class="fraktion">Schrat</p>
 
 		<p class="effekt">
-			Hinterhalt,<br />Betäubung (6),<br />Rüstung 1
+			Hinterhalt,<br/>Betäubung (6),<br/>Rüstung 1
 		</p>
 
 		<div class="punkte">25</div>
@@ -1448,7 +1458,7 @@
 		<p class="fraktion">Feen</p>
 
 		<p class="effekt">
-			Verführung gegen Männer (10),<br />Hinterhalt
+			Verführung gegen Männer (10),<br/>Hinterhalt
 		</p>
 
 		<div class="punkte">20</div>
@@ -1487,7 +1497,7 @@
 		<p class="fraktion">Elementar</p>
 
 		<p class="effekt">
-			Betäubung (16),<br />Regeneration 2,<br />Fliegend
+			Betäubung (16),<br/>Regeneration 2,<br/>Fliegend
 		</p>
 
 		<div class="punkte">50</div>
@@ -1500,7 +1510,7 @@
 		<p class="fraktion">Baum</p>
 
 		<p class="effekt">
-			Waldbewohner: +1 A/V<br />Nicht-Waldbewohner: -1 A/V
+			Waldbewohner: +1 A/V<br/>Nicht-Waldbewohner: -1 A/V
 		</p>
 
 		<div class="punkte">30</div>
@@ -1513,7 +1523,7 @@
 		<p class="fraktion">Mauer, Elementar</p>
 
 		<p class="effekt">
-			Verteidiger,<br />2 Schaden gegen Angreifer
+			Verteidiger,<br/>2 Schaden gegen Angreifer
 		</p>
 
 		<div class="punkte">20</div>

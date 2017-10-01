@@ -12,9 +12,19 @@ html {
   background-image: url(parchement.jpg);
 }
 body {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 1289px;
+  margin: 0 8px;
   font-family: sans-serif;
+}
+@media (min-width: 960px) {
+  body {
+    margin: 0 16px;
+  }
+}
+@media (min-width: 1280px) {
+  body {
+    margin: 0 auto;
+  }
 }
 * {
   box-sizing: border-box;
@@ -71,6 +81,40 @@ section.separated {
 }
 #previewDownload a[download]:active {
   background-color: #880E4F;
+}
+section.controls {
+  overflow: hidden;
+}
+section.controls > h3 {
+  margin-top: 0;
+}
+.sortLink {
+  float: left;
+  margin-right: 1.5em;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.sortLink > a:link {
+  color: #3F51B5;
+  text-decoration: none;
+}
+.sortLink > a:visited {
+  color: #3F51B5;
+}
+.sortLink > a.active {
+  color: #e91e63;
+}
+.filterRow {
+  float: left;
+  margin-right: 1.5em;
+}
+.filterRow > label {
+  display: block;
+}
+.filterResult {
+  clear: both;
+  float: left;
+  margin-bottom: 0;
 }
 section.cards {
   overflow: hidden;

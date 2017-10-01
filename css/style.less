@@ -5,11 +5,7 @@
 	font-weight: 400;
 	src: url('fonts/metamorphous-v6-latin-regular.eot'); /* IE9 Compat Modes */
 	src: local('Metamorphous'),
-	url('fonts/metamorphous-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('fonts/metamorphous-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-	url('fonts/metamorphous-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
-	url('fonts/metamorphous-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-	url('fonts/metamorphous-v6-latin-regular.svg#Metamorphous') format('svg'); /* Legacy iOS */
+	url('fonts/metamorphous-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/metamorphous-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('fonts/metamorphous-v6-latin-regular.woff') format('woff'), /* Modern Browsers */ url('fonts/metamorphous-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/metamorphous-v6-latin-regular.svg#Metamorphous') format('svg'); /* Legacy iOS */
 }
 
 @dpi: 96;
@@ -21,9 +17,21 @@ html {
 }
 
 body {
-	max-width: 800px;
-	margin: 0 auto;
+	max-width: 1289px;
+	margin: 0 8px;
 	font-family: sans-serif;
+}
+
+@media (min-width: 960px) {
+	body {
+		margin: 0 16px;
+	}
+}
+
+@media (min-width: 1280px) {
+	body {
+		margin: 0 auto;
+	}
 }
 
 * {
@@ -97,6 +105,51 @@ section.separated {
 			background-color: #880E4F; // Pink 900
 		}
 	}
+}
+
+section.controls {
+	overflow: hidden;
+
+	> h3 {
+		margin-top: 0;
+	}
+}
+
+.sortLink {
+	float: left;
+	margin-right: 1.5em;
+	font-variant: small-caps;
+	font-weight: bold;
+
+	> a {
+		&:link {
+			color: #3F51B5; // Indigo 500
+			text-decoration: none;
+		}
+
+		&:visited {
+			color: #3F51B5; // Indigo 500
+		}
+
+		&.active {
+			color: #e91e63;
+		}
+	}
+}
+
+.filterRow {
+	float: left;
+	margin-right: 1.5em;
+
+	> label {
+		display: block;
+	}
+}
+
+.filterResult {
+	clear: both;
+	float: left;
+	margin-bottom: 0;
 }
 
 section.cards {
